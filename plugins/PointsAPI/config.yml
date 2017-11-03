@@ -1,0 +1,20 @@
+# Display the points in the chat
+display_in_chat: false
+
+# Prefix in the chat
+prefix: '&7[&a%points%&7]'
+
+# Seconds until the points of a player gets updated
+refresh-delay: 45
+
+# Integrate PointsAPI into vault
+vault: false
+
+# MySQL-Database for multiple servers
+sql:
+  enable: false
+  host: localhost
+  port: 3306
+  database: database
+  user: username
+  pass: password

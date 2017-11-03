@@ -1,0 +1,595 @@
+ShopName: BuyFood
+DisplayName: '&9&lBuyFood'
+signs:
+  text: '[BuyFood]'
+  NeedPermissionToCreateSign: true
+shop:
+
+  Item_1_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:Bread
+      - amount:1
+    MenuItem:
+    - type:Bread
+    - amount:1
+    - name:&b1 Bread
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 1
+    ExtraPermission: ''
+
+  Item_1_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:Bread
+      - amount:32
+    MenuItem:
+    - type:Bread
+    - amount:32
+    - name:&b32 Bread
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 2
+    ExtraPermission: ''
+
+  Item_1_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:Bread
+      - amount:64
+    MenuItem:
+    - type:Bread
+    - amount:64
+    - name:&b64 Bread
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 3
+    ExtraPermission: ''
+
+  Item_2_1:
+    RewardType: item
+    PriceType: points
+    Price: 100
+    Reward:
+    - - type:Cake
+      - amount:1
+    MenuItem:
+    - type:Cake
+    - amount:1
+    - name:&b1 Cake
+    - 'lore:#&cPrice 100 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 4
+    ExtraPermission: ''
+
+  Item_2_32:
+    RewardType: item
+    PriceType: points
+    Price: 3200
+    Reward:
+    - - type:Cake
+      - amount:32
+    MenuItem:
+    - type:Cake
+    - amount:32
+    - name:&b32 Cake
+    - 'lore:#&cPrice 3200 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 5
+    ExtraPermission: ''
+
+  Item_2_64:
+    RewardType: item
+    PriceType: points
+    Price: 6400
+    Reward:
+    - - type:Cake
+      - amount:64
+    MenuItem:
+    - type:Cake
+    - amount:64
+    - name:&b64 Cake
+    - 'lore:#&cPrice 6400 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 6
+    ExtraPermission: ''
+
+  Item_3_1:
+    RewardType: item
+    PriceType: points
+    Price: 5
+    Reward:
+    - - type:Cookie
+      - amount:1
+    MenuItem:
+    - type:Cookie
+    - amount:1
+    - name:&b1 Cookie
+    - 'lore:#&cPrice 5 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 7
+    ExtraPermission: ''
+
+  Item_3_32:
+    RewardType: item
+    PriceType: points
+    Price: 160
+    Reward:
+    - - type:Cookie
+      - amount:32
+    MenuItem:
+    - type:Cookie
+    - amount:32
+    - name:&b32 Cookie
+    - 'lore:#&cPrice 160 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 8
+    ExtraPermission: ''
+
+  Item_3_64:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:Cookie
+      - amount:64
+    MenuItem:
+    - type:Cookie
+    - amount:64
+    - name:&b64 Cookie
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 9
+    ExtraPermission: ''
+
+  Item_4_1:
+    RewardType: item
+    PriceType: points
+    Price: 20
+    Reward:
+    - - type:cooked_beef
+      - amount:1
+    MenuItem:
+    - type:cooked_beef
+    - amount:1
+    - name:&b1 cooked_beef
+    - 'lore:#&cPrice 20 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 10
+    ExtraPermission: ''
+
+  Item_4_32:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:cooked_beef
+      - amount:32
+    MenuItem:
+    - type:cooked_beef
+    - amount:32
+    - name:&b32 cooked_beef
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 11
+    ExtraPermission: ''
+
+  Item_4_64:
+    RewardType: item
+    PriceType: points
+    Price: 1280
+    Reward:
+    - - type:cooked_beef
+      - amount:64
+    MenuItem:
+    - type:cooked_beef
+    - amount:64
+    - name:&b64 cooked_beef
+    - 'lore:#&cPrice 1280 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 12
+    ExtraPermission: ''
+
+  Item_5_1:
+    RewardType: item
+    PriceType: points
+    Price: 20
+    Reward:
+    - - type:cooked_chicken
+      - amount:1
+    MenuItem:
+    - type:cooked_chicken
+    - amount:1
+    - name:&b1 cooked_chicken
+    - 'lore:#&cPrice 20 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 13
+    ExtraPermission: ''
+
+  Item_5_32:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:cooked_chicken
+      - amount:32
+    MenuItem:
+    - type:cooked_chicken
+    - amount:32
+    - name:&b32 cooked_chicken
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 14
+    ExtraPermission: ''
+
+  Item_5_64:
+    RewardType: item
+    PriceType: points
+    Price: 1280
+    Reward:
+    - - type:cooked_chicken
+      - amount:64
+    MenuItem:
+    - type:cooked_chicken
+    - amount:64
+    - name:&b64 cooked_chicken
+    - 'lore:#&cPrice 1280 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 15
+    ExtraPermission: ''
+
+  Item_6_1:
+    RewardType: item
+    PriceType: points
+    Price: 15
+    Reward:
+    - - type:cooked_fish
+      - amount:1
+    MenuItem:
+    - type:cooked_fish
+    - amount:1
+    - name:&b1 cooked_fish
+    - 'lore:#&cPrice 15 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 16
+    ExtraPermission: ''
+
+  Item_6_32:
+    RewardType: item
+    PriceType: points
+    Price: 480
+    Reward:
+    - - type:cooked_fish
+      - amount:32
+    MenuItem:
+    - type:cooked_fish
+    - amount:32
+    - name:&b32 cooked_fish
+    - 'lore:#&cPrice 480 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 17
+    ExtraPermission: ''
+
+  Item_6_64:
+    RewardType: item
+    PriceType: points
+    Price: 960
+    Reward:
+    - - type:cooked_fish
+      - amount:64
+    MenuItem:
+    - type:cooked_fish
+    - amount:64
+    - name:&b64 cooked_fish
+    - 'lore:#&cPrice 960 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 18
+    ExtraPermission: ''
+
+  Item7_1:
+    RewardType: item
+    PriceType: points
+    Price: 20
+    Reward:
+    - - type:cooked_rabbit
+      - amount:1
+    MenuItem:
+    - type:cooked_rabbit
+    - amount:1
+    - name:&b1 cooked_rabbit
+    - 'lore:#&cPrice 20 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 19
+    ExtraPermission: ''
+
+  Item7_32:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:cooked_rabbit
+      - amount:32
+    MenuItem:
+    - type:cooked_rabbit
+    - amount:32
+    - name:&b32 cooked_rabbit
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 20
+    ExtraPermission: ''
+
+  Item7_64:
+    RewardType: item
+    PriceType: points
+    Price: 1280
+    Reward:
+    - - type:cooked_rabbit
+      - amount:64
+    MenuItem:
+    - type:cooked_rabbit
+    - amount:64
+    - name:&b64 cooked_rabbit
+    - 'lore:#&cPrice 1280 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 21
+    ExtraPermission: ''
+
+  Item8_1:
+    RewardType: item
+    PriceType: points
+    Price: 20
+    Reward:
+    - - type:cooked_mutton
+      - amount:1
+    MenuItem:
+    - type:cooked_mutton
+    - amount:1
+    - name:&b1 cooked_mutton
+    - 'lore:#&cPrice 20 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 22
+    ExtraPermission: ''
+
+  Item8_4:
+    RewardType: item
+    PriceType: points
+    Price: 80
+    Reward:
+    - - type:cooked_mutton
+      - amount:4
+    MenuItem:
+    - type:cooked_mutton
+    - amount:4
+    - name:&b4 cooked_mutton
+    - 'lore:#&cPrice 80 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 23
+    ExtraPermission: ''
+
+  Item8_8:
+    RewardType: item
+    PriceType: points
+    Price: 160
+    Reward:
+    - - type:cooked_mutton
+      - amount:8
+    MenuItem:
+    - type:cooked_mutton
+    - amount:8
+    - name:&b8 cooked_mutton
+    - 'lore:#&cPrice 160 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 24
+    ExtraPermission: ''
+
+  Item8_16:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:cooked_mutton
+      - amount:16
+    MenuItem:
+    - type:cooked_mutton
+    - amount:16
+    - name:&b16 cooked_mutton
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 25
+    ExtraPermission: ''
+
+  Item8_32:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:cooked_mutton
+      - amount:32
+    MenuItem:
+    - type:cooked_mutton
+    - amount:32
+    - name:&b32 cooked_mutton
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 26
+    ExtraPermission: ''
+
+  Item8_64:
+    RewardType: item
+    PriceType: points
+    Price: 1280
+    Reward:
+    - - type:cooked_mutton
+      - amount:64
+    MenuItem:
+    - type:cooked_mutton
+    - amount:64
+    - name:&b64 cooked_mutton
+    - 'lore:#&cPrice 1280 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 27
+    ExtraPermission: ''
+
+  Item10_1:
+    RewardType: item
+    PriceType: points
+    Price: 2
+    Reward:
+    - - type:Apple
+      - amount:1
+    MenuItem:
+    - type:Apple
+    - amount:1
+    - name:&b1 Apple
+    - 'lore:#&cPrice 2 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 28
+    ExtraPermission: ''
+
+  Item10_32:
+    RewardType: item
+    PriceType: points
+    Price: 64
+    Reward:
+    - - type:Apple
+      - amount:32
+    MenuItem:
+    - type:Apple
+    - amount:32
+    - name:&b32 Apple
+    - 'lore:#&cPrice 64 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 29
+    ExtraPermission: ''
+
+  Item10_64:
+    RewardType: item
+    PriceType: points
+    Price: 128
+    Reward:
+    - - type:Apple
+      - amount:64
+    MenuItem:
+    - type:Apple
+    - amount:64
+    - name:&b64 Apple
+    - 'lore:#&cPrice 128 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 30
+    ExtraPermission: ''
+
+  Item11_1:
+    RewardType: item
+    PriceType: points
+    Price: 200
+    Reward:
+    - - type:golden_apple
+      - amount:1
+    MenuItem:
+    - type:golden_apple
+    - amount:1
+    - name:&b1 golden_apple
+    - 'lore:#&cPrice 200 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 31
+    ExtraPermission: ''
+
+  Item11_32:
+    RewardType: item
+    PriceType: points
+    Price: 6400
+    Reward:
+    - - type:golden_apple
+      - amount:32
+    MenuItem:
+    - type:golden_apple
+    - amount:32
+    - name:&b32 golden_apple
+    - 'lore:#&cPrice 6400 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 32
+    ExtraPermission: ''
+
+  Item11_64:
+    RewardType: item
+    PriceType: points
+    Price: 12800
+    Reward:
+    - - type:golden_apple
+      - amount:64
+    MenuItem:
+    - type:golden_apple
+    - amount:64
+    - name:&b64 golden_apple
+    - 'lore:#&cPrice 12800 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 33
+    ExtraPermission: ''
+
+  Item12_1:
+    RewardType: item
+    PriceType: points
+    Price: 10000
+    Reward:
+    - - type:golden_apple:1
+      - amount:1
+    MenuItem:
+    - type:golden_apple:1
+    - amount:1
+    - name:&b1 golden_apple:1
+    - 'lore:#&cPrice 10000 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 34
+    ExtraPermission: ''
+
+  Item12_32:
+    RewardType: item
+    PriceType: points
+    Price: 320000
+    Reward:
+    - - type:golden_apple:1
+      - amount:32
+    MenuItem:
+    - type:golden_apple:1
+    - amount:32
+    - name:&b32 golden_apple:1
+    - 'lore:#&cPrice 320000 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 35
+    ExtraPermission: ''
+
+  Item12_64:
+    RewardType: item
+    PriceType: points
+    Price: 640000
+    Reward:
+    - - type:golden_apple:1
+      - amount:64
+    MenuItem:
+    - type:golden_apple:1
+    - amount:64
+    - name:&b64 golden_apple:1
+    - 'lore:#&cPrice 640000 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 36
+    ExtraPermission: ''
+
+  Back:
+    RewardType: shop
+    PriceType: free
+    Reward: menu
+    MenuItem:
+    - type:RedStone
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    Message: '&6Leaving the ItemShop...'
+    InventoryLocation: 54
+    ExtraPermission: ''

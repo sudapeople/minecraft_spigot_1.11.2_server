@@ -1,0 +1,603 @@
+ShopName: SellWood
+DisplayName: '&b&lSellWood'
+signs:
+  text: '[SellWood]'
+  NeedPermissionToCreateSign: true
+shop:
+
+  log_1:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log
+      - amount:1
+    Reward: 1
+    MenuItem:
+    - type:log
+    - amount:1
+    - name:&b1 Wood(Oak)
+    - 'lore:&2Reward: 1 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 1
+    ExtraPermission: ''
+
+  log_2:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log
+      - amount:2
+    Reward: 2
+    MenuItem:
+    - type:log
+    - amount:2
+    - name:&b2 Wood(Oak)
+    - 'lore:&2Reward: 2 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 2
+    ExtraPermission: ''
+
+  log_4:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log
+      - amount:4
+    Reward: 4
+    MenuItem:
+    - type:log
+    - amount:4
+    - name:&b4 Wood(Oak)
+    - 'lore:&2Reward: 4 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 3
+    ExtraPermission: ''
+
+  log_8:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log
+      - amount:8
+    Reward: 8
+    MenuItem:
+    - type:log
+    - amount:8
+    - name:&b8 Wood(Oak)
+    - 'lore:&2Reward: 8 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 4
+    ExtraPermission: ''
+
+  log_12:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log
+      - amount:12
+    Reward: 12
+    MenuItem:
+    - type:log
+    - amount:12
+    - name:&b12 Wood(Oak)
+    - 'lore:&2Reward: 12 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 5
+    ExtraPermission: ''
+
+  log_16:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log
+      - amount:16
+    Reward: 16
+    MenuItem:
+    - type:log
+    - amount:16
+    - name:&b16 Wood(Oak)
+    - 'lore:&2Reward: 16 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 6
+    ExtraPermission: ''
+
+  log_20:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log
+      - amount:20
+    Reward: 20
+    MenuItem:
+    - type:log
+    - amount:20
+    - name:&b20 Wood(Oak)
+    - 'lore:&2Reward: 20 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 7
+    ExtraPermission: ''
+
+  log_32:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log
+      - amount:32
+    Reward: 32
+    MenuItem:
+    - type:log
+    - amount:32
+    - name:&b32 Wood(Oak)
+    - 'lore:&2Reward: 32 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 8
+    ExtraPermission: ''
+
+  log_64:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log
+      - amount:64
+    Reward: 64
+    MenuItem:
+    - type:log
+    - amount:64
+    - name:&b64 Wood(Oak)
+    - 'lore:&2Reward: 64 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 9
+    ExtraPermission: ''
+
+#---
+
+  log_1_1:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:1
+      - amount:1
+    Reward: 1
+    MenuItem:
+    - type:log:1
+    - amount:1
+    - name:&b1 Wood(Spruce)
+    - 'lore:&2Reward: 1 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 10
+    ExtraPermission: ''
+
+  log_1_2:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:1
+      - amount:2
+    Reward: 2
+    MenuItem:
+    - type:log:1
+    - amount:2
+    - name:&b2 Wood(Spruce)
+    - 'lore:&2Reward: 2 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 11
+    ExtraPermission: ''
+
+  log_1_4:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:1
+      - amount:4
+    Reward: 4
+    MenuItem:
+    - type:log:1
+    - amount:4
+    - name:&b4 Wood(Spruce)
+    - 'lore:&2Reward: 4 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 12
+    ExtraPermission: ''
+
+  log_1_8:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:1
+      - amount:8
+    Reward: 8
+    MenuItem:
+    - type:log:1
+    - amount:8
+    - name:&b8 Wood(Spruce)
+    - 'lore:&2Reward: 8 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 13
+    ExtraPermission: ''
+
+  log_1_12:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:1
+      - amount:12
+    Reward: 12
+    MenuItem:
+    - type:log:1
+    - amount:12
+    - name:&b12 Wood(Spruce)
+    - 'lore:&2Reward: 12 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 14
+    ExtraPermission: ''
+
+  log_1_16:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:1
+      - amount:16
+    Reward: 16
+    MenuItem:
+    - type:log:1
+    - amount:16
+    - name:&b16 Wood(Spruce)
+    - 'lore:&2Reward: 16 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 15
+    ExtraPermission: ''
+
+  log_1_20:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:1
+      - amount:20
+    Reward: 20
+    MenuItem:
+    - type:log:1
+    - amount:20
+    - name:&b20 Wood(Spruce)
+    - 'lore:&2Reward: 20 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 16
+    ExtraPermission: ''
+
+  log_1_32:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:1
+      - amount:32
+    Reward: 32
+    MenuItem:
+    - type:log:1
+    - amount:32
+    - name:&b32 Wood(Spruce)
+    - 'lore:&2Reward: 32 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 17
+    ExtraPermission: ''
+
+  log_1_64:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:1
+      - amount:64
+    Reward: 64
+    MenuItem:
+    - type:log:1
+    - amount:64
+    - name:&b64 Wood(Spruce)
+    - 'lore:&2Reward: 64 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 18
+    ExtraPermission: ''
+
+#---
+
+  log_2_1:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:2
+      - amount:1
+    Reward: 1
+    MenuItem:
+    - type:log:2
+    - amount:1
+    - name:&b1 Wood(Birch)
+    - 'lore:&2Reward: 1 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 19
+    ExtraPermission: ''
+
+  log_2_2:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:2
+      - amount:2
+    Reward: 2
+    MenuItem:
+    - type:log:2
+    - amount:2
+    - name:&b2 Wood(Birch)
+    - 'lore:&2Reward: 2 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 20
+    ExtraPermission: ''
+
+  log_2_4:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:2
+      - amount:4
+    Reward: 4
+    MenuItem:
+    - type:log:2
+    - amount:4
+    - name:&b4 Wood(Birch)
+    - 'lore:&2Reward: 4 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 21
+    ExtraPermission: ''
+
+  log_2_8:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:2
+      - amount:8
+    Reward: 8
+    MenuItem:
+    - type:log:2
+    - amount:8
+    - name:&b8 Wood(Birch)
+    - 'lore:&2Reward: 8 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 22
+    ExtraPermission: ''
+
+  log_2_12:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:2
+      - amount:12
+    Reward: 12
+    MenuItem:
+    - type:log:2
+    - amount:12
+    - name:&b12 Wood(Birch)
+    - 'lore:&2Reward: 12 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 23
+    ExtraPermission: ''
+
+  log_2_16:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:2
+      - amount:16
+    Reward: 16
+    MenuItem:
+    - type:log:2
+    - amount:16
+    - name:&b16 Wood(Birch)
+    - 'lore:&2Reward: 16 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 24
+    ExtraPermission: ''
+
+  log_2_20:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:2
+      - amount:20
+    Reward: 20
+    MenuItem:
+    - type:log:2
+    - amount:20
+    - name:&b20 Wood(Birch)
+    - 'lore:&2Reward: 20 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 25
+    ExtraPermission: ''
+
+  log_2_32:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:2
+      - amount:32
+    Reward: 32
+    MenuItem:
+    - type:log:2
+    - amount:32
+    - name:&b32 Wood(Birch)
+    - 'lore:&2Reward: 32 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 26
+    ExtraPermission: ''
+
+  log_2_64:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:2
+      - amount:64
+    Reward: 64
+    MenuItem:
+    - type:log:2
+    - amount:64
+    - name:&b64 Wood(Birch)
+    - 'lore:&2Reward: 64 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 27
+    ExtraPermission: ''
+
+#---
+
+  log_3_1:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:3
+      - amount:1
+    Reward: 1
+    MenuItem:
+    - type:log:3
+    - amount:1
+    - name:&b1 Wood(Jungle)
+    - 'lore:&2Reward: 1 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 28
+    ExtraPermission: ''
+
+  log_3_2:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:3
+      - amount:2
+    Reward: 2
+    MenuItem:
+    - type:log:3
+    - amount:2
+    - name:&b2 Wood(Jungle)
+    - 'lore:&2Reward: 2 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 29
+    ExtraPermission: ''
+
+  log_3_4:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:3
+      - amount:4
+    Reward: 4
+    MenuItem:
+    - type:log:3
+    - amount:4
+    - name:&b4 Wood(Jungle)
+    - 'lore:&2Reward: 4 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 30
+    ExtraPermission: ''
+
+  log_3_8:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:3
+      - amount:8
+    Reward: 8
+    MenuItem:
+    - type:log:3
+    - amount:8
+    - name:&b8 Wood(Jungle)
+    - 'lore:&2Reward: 8 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 31
+    ExtraPermission: ''
+
+  log_3_12:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:3
+      - amount:12
+    Reward: 12
+    MenuItem:
+    - type:log:3
+    - amount:12
+    - name:&b12 Wood(Jungle)
+    - 'lore:&2Reward: 12 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 32
+    ExtraPermission: ''
+
+  log_3_16:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:3
+      - amount:16
+    Reward: 16
+    MenuItem:
+    - type:log:3
+    - amount:16
+    - name:&b16 Wood(Jungle)
+    - 'lore:&2Reward: 16 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 33
+    ExtraPermission: ''
+
+  log_3_20:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:3
+      - amount:20
+    Reward: 20
+    MenuItem:
+    - type:log:3
+    - amount:20
+    - name:&b20 Wood(Jungle)
+    - 'lore:&2Reward: 20 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 34
+    ExtraPermission: ''
+
+  log_3_32:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:3
+      - amount:32
+    Reward: 32
+    MenuItem:
+    - type:log:3
+    - amount:32
+    - name:&b32 Wood(Jungle)
+    - 'lore:&2Reward: 32 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 35
+    ExtraPermission: ''
+
+  log_3_64:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:log:3
+      - amount:64
+    Reward: 64
+    MenuItem:
+    - type:log:3
+    - amount:64
+    - name:&b64 Wood(Jungle)
+    - 'lore:&2Reward: 64 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 36
+    ExtraPermission: ''
+
+#---
+
+  Back:
+    RewardType: shop
+    PriceType: free
+    Reward: menu
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    Message: '&6Leaving the ItemShop...'
+    InventoryLocation: 54
+    ExtraPermission: ''

@@ -1,0 +1,51 @@
+groups:
+  default:
+    options:
+      rank: 1000
+      default: true
+    permissions:
+    - home.*
+    - randomtp.tp
+    - backpack.*
+    - pocketcrafter.*
+    - BossShop.open
+    - SimpleAlias.use.*
+    - AutoPickup.toggle
+    - AutoPickup.reload
+    - AutoPickup.enabled
+  VIP:
+    permissions:
+    - worldedit.*
+    - fly.togglefly
+    - home.*
+    - randomtp.tp
+    - backpack.*
+    - pocketcrafter.*
+    - lobby
+    - BossShop.open
+    - PlayerPoints.me
+    - SimpleAlias.use.*
+    - AutoPickup.toggle
+    - AutoPickup.reload
+    - AutoPickup.enabled
+    options:
+      rank: 100
+      prefix: "VIP"
+  Admin:
+    permissions:
+    - "*"
+    options:
+      rank: 1
+      prefix: "ADMIN"
+users:
+  172499a2-2861-440f-bf5b-f6f9375b1b94:
+    group:
+    - Admin
+    options:
+      name: sudapeople
+  8961b0ab-d64b-4137-b19a-9e8b828368e9:
+    group:
+    - VIP
+    options:
+      name: EMONGE
+schema-version: 1

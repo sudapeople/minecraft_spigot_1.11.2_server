@@ -1,0 +1,749 @@
+ShopName: SellWool
+DisplayName: '&b&lSellWool'
+signs:
+  text: '[SellWool]'
+  NeedPermissionToCreateSign: true
+shop:
+
+  Wool1_1:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool
+      - amount:1
+    Reward: 1
+    MenuItem:
+    - type:Wool
+    - amount:1
+    - name:&b1 Wool
+    - 'lore:&2Reward: 1 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 1
+    ExtraPermission: ''
+
+  Wool1_2:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool
+      - amount:2
+    Reward: 2
+    MenuItem:
+    - type:Wool
+    - amount:2
+    - name:&b2 Wool
+    - 'lore:&2Reward: 2 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 2
+    ExtraPermission: ''
+
+  Wool1_4:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool
+      - amount:4
+    Reward: 4
+    MenuItem:
+    - type:Wool
+    - amount:4
+    - name:&b4 Wool
+    - 'lore:&2Reward: 4 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 3
+    ExtraPermission: ''
+
+  Wool1_8:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool
+      - amount:8
+    Reward: 8
+    MenuItem:
+    - type:Wool
+    - amount:8
+    - name:&b8 Wool
+    - 'lore:&2Reward: 8 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 4
+    ExtraPermission: ''
+
+  Wool1_12:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool
+      - amount:12
+    Reward: 12
+    MenuItem:
+    - type:Wool
+    - amount:12
+    - name:&b12 Wool
+    - 'lore:&2Reward: 12 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 5
+    ExtraPermission: ''
+
+  Wool1_16:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool
+      - amount:16
+    Reward: 16
+    MenuItem:
+    - type:Wool
+    - amount:16
+    - name:&b16 Wool
+    - 'lore:&2Reward: 16 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 6
+    ExtraPermission: ''
+
+  Wool1_20:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool
+      - amount:20
+    Reward: 20
+    MenuItem:
+    - type:Wool
+    - amount:20
+    - name:&b20 Wool
+    - 'lore:&2Reward: 20 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 7
+    ExtraPermission: ''
+
+  Wool1_32:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool
+      - amount:32
+    Reward: 32
+    MenuItem:
+    - type:Wool
+    - amount:32
+    - name:&b32 Wool
+    - 'lore:&2Reward: 32 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 8
+    ExtraPermission: ''
+
+  Wool1_64:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool
+      - amount:64
+    Reward: 64
+    MenuItem:
+    - type:Wool
+    - amount:64
+    - name:&b64 Wool
+    - 'lore:&2Reward: 64 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 9
+    ExtraPermission: ''
+
+#---
+
+  Wool2_1:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:1
+      - amount:1
+    Reward: 1
+    MenuItem:
+    - type:Wool:1
+    - amount:1
+    - name:&b1 Wool:1
+    - 'lore:&2Reward: 1 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 10
+    ExtraPermission: ''
+
+  Wool2_2:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:1
+      - amount:2
+    Reward: 2
+    MenuItem:
+    - type:Wool:1
+    - amount:2
+    - name:&b2 Wool:1
+    - 'lore:&2Reward: 2 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 11
+    ExtraPermission: ''
+
+  Wool2_4:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:1
+      - amount:4
+    Reward: 4
+    MenuItem:
+    - type:Wool:1
+    - amount:4
+    - name:&b4 Wool:1
+    - 'lore:&2Reward: 4 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 12
+    ExtraPermission: ''
+
+  Wool2_8:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:1
+      - amount:8
+    Reward: 8
+    MenuItem:
+    - type:Wool:1
+    - amount:8
+    - name:&b8 Wool:1
+    - 'lore:&2Reward: 8 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 13
+    ExtraPermission: ''
+
+  Wool2_12:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:1
+      - amount:12
+    Reward: 12
+    MenuItem:
+    - type:Wool:1
+    - amount:12
+    - name:&b12 Wool:1
+    - 'lore:&2Reward: 12 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 14
+    ExtraPermission: ''
+
+  Wool2_16:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:1
+      - amount:16
+    Reward: 16
+    MenuItem:
+    - type:Wool:1
+    - amount:16
+    - name:&b16 Wool:1
+    - 'lore:&2Reward: 16 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 15
+    ExtraPermission: ''
+
+  Wool2_20:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:1
+      - amount:20
+    Reward: 20
+    MenuItem:
+    - type:Wool:1
+    - amount:20
+    - name:&b20 Wool:1
+    - 'lore:&2Reward: 20 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 16
+    ExtraPermission: ''
+
+  Wool2_32:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:1
+      - amount:32
+    Reward: 32
+    MenuItem:
+    - type:Wool:1
+    - amount:32
+    - name:&b32 Wool:1
+    - 'lore:&2Reward: 32 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 17
+    ExtraPermission: ''
+
+  Wool2_64:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:1
+      - amount:64
+    Reward: 64
+    MenuItem:
+    - type:Wool:1
+    - amount:64
+    - name:&b64 Wool:1
+    - 'lore:&2Reward: 64 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 18
+    ExtraPermission: ''
+
+#---
+
+  Wool3_1:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:2
+      - amount:1
+    Reward: 1
+    MenuItem:
+    - type:Wool:2
+    - amount:1
+    - name:&b1 Wool:2
+    - 'lore:&2Reward: 1 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 19
+    ExtraPermission: ''
+
+  Wool3_2:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:2
+      - amount:2
+    Reward: 2
+    MenuItem:
+    - type:Wool:2
+    - amount:2
+    - name:&b2 Wool:2
+    - 'lore:&2Reward: 2 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 20
+    ExtraPermission: ''
+
+  Wool3_4:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:2
+      - amount:4
+    Reward: 4
+    MenuItem:
+    - type:Wool:2
+    - amount:4
+    - name:&b4 Wool:2
+    - 'lore:&2Reward: 4 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 21
+    ExtraPermission: ''
+
+  Wool3_8:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:2
+      - amount:8
+    Reward: 8
+    MenuItem:
+    - type:Wool:2
+    - amount:8
+    - name:&b8 Wool:2
+    - 'lore:&2Reward: 8 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 22
+    ExtraPermission: ''
+
+  Wool3_12:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:2
+      - amount:12
+    Reward: 12
+    MenuItem:
+    - type:Wool:2
+    - amount:12
+    - name:&b12 Wool:2
+    - 'lore:&2Reward: 12 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 23
+    ExtraPermission: ''
+
+  Wool3_16:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:2
+      - amount:16
+    Reward: 16
+    MenuItem:
+    - type:Wool:2
+    - amount:16
+    - name:&b16 Wool:2
+    - 'lore:&2Reward: 16 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 24
+    ExtraPermission: ''
+
+  Wool3_20:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:2
+      - amount:20
+    Reward: 20
+    MenuItem:
+    - type:Wool:2
+    - amount:20
+    - name:&b20 Wool:2
+    - 'lore:&2Reward: 20 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 25
+    ExtraPermission: ''
+
+  Wool3_32:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:2
+      - amount:32
+    Reward: 32
+    MenuItem:
+    - type:Wool:2
+    - amount:32
+    - name:&b32 Wool:2
+    - 'lore:&2Reward: 32 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 26
+    ExtraPermission: ''
+
+  Wool3_64:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:2
+      - amount:64
+    Reward: 64
+    MenuItem:
+    - type:Wool:2
+    - amount:64
+    - name:&b64 Wool:2
+    - 'lore:&2Reward: 64 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 27
+    ExtraPermission: ''
+
+#---
+
+  Wool4_1:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:3
+      - amount:1
+    Reward: 1
+    MenuItem:
+    - type:Wool:3
+    - amount:1
+    - name:&b1 Wool:3
+    - 'lore:&2Reward: 1 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 28
+    ExtraPermission: ''
+
+  Wool4_2:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:3
+      - amount:2
+    Reward: 2
+    MenuItem:
+    - type:Wool:3
+    - amount:2
+    - name:&b2 Wool:3
+    - 'lore:&2Reward: 2 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 29
+    ExtraPermission: ''
+
+  Wool4_4:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:3
+      - amount:4
+    Reward: 4
+    MenuItem:
+    - type:Wool:3
+    - amount:4
+    - name:&b4 Wool:3
+    - 'lore:&2Reward: 4 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 30
+    ExtraPermission: ''
+
+  Wool4_8:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:3
+      - amount:8
+    Reward: 8
+    MenuItem:
+    - type:Wool:3
+    - amount:8
+    - name:&b8 Wool:3
+    - 'lore:&2Reward: 8 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 31
+    ExtraPermission: ''
+
+  Wool4_12:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:3
+      - amount:12
+    Reward: 12
+    MenuItem:
+    - type:Wool:3
+    - amount:12
+    - name:&b12 Wool:3
+    - 'lore:&2Reward: 12 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 32
+    ExtraPermission: ''
+
+  Wool4_16:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:3
+      - amount:16
+    Reward: 16
+    MenuItem:
+    - type:Wool:3
+    - amount:16
+    - name:&b16 Wool:3
+    - 'lore:&2Reward: 16 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 33
+    ExtraPermission: ''
+
+  Wool4_20:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:3
+      - amount:20
+    Reward: 20
+    MenuItem:
+    - type:Wool:3
+    - amount:20
+    - name:&b20 Wool:3
+    - 'lore:&2Reward: 20 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 34
+    ExtraPermission: ''
+
+  Wool4_32:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:3
+      - amount:32
+    Reward: 32
+    MenuItem:
+    - type:Wool:3
+    - amount:32
+    - name:&b32 Wool:3
+    - 'lore:&2Reward: 32 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 35
+    ExtraPermission: ''
+
+  Wool4_64:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:3
+      - amount:64
+    Reward: 64
+    MenuItem:
+    - type:Wool:3
+    - amount:64
+    - name:&b64 Wool:3
+    - 'lore:&2Reward: 64 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 36
+    ExtraPermission: ''
+
+#---
+
+  Wool5_1:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:4
+      - amount:1
+    Reward: 1
+    MenuItem:
+    - type:Wool:4
+    - amount:1
+    - name:&b1 Wool:4
+    - 'lore:&2Reward: 1 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 37
+    ExtraPermission: ''
+
+  Wool5_2:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:4
+      - amount:2
+    Reward: 2
+    MenuItem:
+    - type:Wool:4
+    - amount:2
+    - name:&b2 Wool:4
+    - 'lore:&2Reward: 2 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 38
+    ExtraPermission: ''
+
+  Wool5_4:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:4
+      - amount:4
+    Reward: 4
+    MenuItem:
+    - type:Wool:4
+    - amount:4
+    - name:&b4 Wool:4
+    - 'lore:&2Reward: 4 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 39
+    ExtraPermission: ''
+
+  Wool5_8:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:4
+      - amount:8
+    Reward: 8
+    MenuItem:
+    - type:Wool:4
+    - amount:8
+    - name:&b8 Wool:4
+    - 'lore:&2Reward: 8 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 40
+    ExtraPermission: ''
+
+  Wool5_12:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:4
+      - amount:12
+    Reward: 12
+    MenuItem:
+    - type:Wool:4
+    - amount:12
+    - name:&b12 Wool:4
+    - 'lore:&2Reward: 12 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 41
+    ExtraPermission: ''
+
+  Wool5_16:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:4
+      - amount:16
+    Reward: 16
+    MenuItem:
+    - type:Wool:4
+    - amount:16
+    - name:&b16 Wool:4
+    - 'lore:&2Reward: 16 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 42
+    ExtraPermission: ''
+
+  Wool5_20:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:4
+      - amount:20
+    Reward: 20
+    MenuItem:
+    - type:Wool:4
+    - amount:20
+    - name:&b20 Wool:4
+    - 'lore:&2Reward: 20 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 43
+    ExtraPermission: ''
+
+  Wool5_32:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:4
+      - amount:32
+    Reward: 32
+    MenuItem:
+    - type:Wool:4
+    - amount:32
+    - name:&b32 Wool:4
+    - 'lore:&2Reward: 32 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 44
+    ExtraPermission: ''
+
+  Wool5_64:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Wool:4
+      - amount:64
+    Reward: 64
+    MenuItem:
+    - type:Wool:4
+    - amount:64
+    - name:&b64 Wool:4
+    - 'lore:&2Reward: 64 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 45
+    ExtraPermission: ''
+
+#---
+
+  Back:
+    RewardType: shop
+    PriceType: free
+    Reward: menu
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    Message: '&6Leaving the ItemShop...'
+    InventoryLocation: 54
+    ExtraPermission: ''

@@ -1,0 +1,307 @@
+ShopName: BuyDirt
+DisplayName: '&9&lBuyDirt'
+signs:
+  text: '[BuyDirt]'
+  NeedPermissionToCreateSign: true
+shop:
+
+  Item_1_1:
+    RewardType: item
+    PriceType: points
+    Price: 20
+    Reward:
+    - - type:Grass
+      - amount:1
+    MenuItem:
+    - type:Grass
+    - amount:1
+    - name:&b1 Grass
+    - 'lore:#&cPrice 20 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 1
+    ExtraPermission: ''
+
+  Item_1_32:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:Grass
+      - amount:32
+    MenuItem:
+    - type:Grass
+    - amount:32
+    - name:&b32 Grass
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 2
+    ExtraPermission: ''
+
+  Item_1_64:
+    RewardType: item
+    PriceType: points
+    Price: 1280
+    Reward:
+    - - type:Grass
+      - amount:64
+    MenuItem:
+    - type:Grass
+    - amount:64
+    - name:&b64 Grass
+    - 'lore:#&cPrice 1280 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 3
+    ExtraPermission: ''
+
+  Item_2_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:Dirt
+      - amount:1
+    MenuItem:
+    - type:Dirt
+    - amount:1
+    - name:&b1 Dirt
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 4
+    ExtraPermission: ''
+
+  Item_2_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:Dirt
+      - amount:32
+    MenuItem:
+    - type:Dirt
+    - amount:32
+    - name:&b32 Dirt
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 5
+    ExtraPermission: ''
+
+  Item_2_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:Dirt
+      - amount:64
+    MenuItem:
+    - type:Dirt
+    - amount:64
+    - name:&b64 Dirt
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 6
+    ExtraPermission: ''
+
+  Item_3_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:Dirt:1
+      - amount:1
+    MenuItem:
+    - type:Dirt:1
+    - amount:1
+    - name:&b1 Dirt:1
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 7
+    ExtraPermission: ''
+
+  Item_3_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:Dirt:1
+      - amount:32
+    MenuItem:
+    - type:Dirt:1
+    - amount:32
+    - name:&b32 Dirt:1
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 8
+    ExtraPermission: ''
+
+  Item_3_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:Dirt:1
+      - amount:64
+    MenuItem:
+    - type:Dirt:1
+    - amount:64
+    - name:&b64 Dirt:1
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 9
+    ExtraPermission: ''
+
+  Item_4_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:Dirt:2
+      - amount:1
+    MenuItem:
+    - type:Dirt:2
+    - amount:1
+    - name:&b1 Dirt:2
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 10
+    ExtraPermission: ''
+
+  Item_4_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:Dirt:2
+      - amount:32
+    MenuItem:
+    - type:Dirt:2
+    - amount:32
+    - name:&b32 Dirt:2
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 11
+    ExtraPermission: ''
+
+  Item_4_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:Dirt:2
+      - amount:64
+    MenuItem:
+    - type:Dirt:2
+    - amount:64
+    - name:&b64 Dirt:2
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 12
+    ExtraPermission: ''
+
+  Item5_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:Sand
+      - amount:1
+    MenuItem:
+    - type:Sand
+    - amount:1
+    - name:&b1 Sand
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 13
+    ExtraPermission: ''
+
+  Item5_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:Sand
+      - amount:32
+    MenuItem:
+    - type:Sand
+    - amount:32
+    - name:&b32 Sand
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 14
+    ExtraPermission: ''
+
+  Item5_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:Sand
+      - amount:64
+    MenuItem:
+    - type:Sand
+    - amount:64
+    - name:&b64 Sand
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 15
+    ExtraPermission: ''
+
+  Item6_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:Gravel
+      - amount:1
+    MenuItem:
+    - type:Gravel
+    - amount:1
+    - name:&b1 Gravel
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 16
+    ExtraPermission: ''
+
+  Item6_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:Gravel
+      - amount:32
+    MenuItem:
+    - type:Gravel
+    - amount:32
+    - name:&b32 Gravel
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 17
+    ExtraPermission: ''
+
+  Item6_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:Gravel
+      - amount:64
+    MenuItem:
+    - type:Gravel
+    - amount:64
+    - name:&b64 Gravel
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 18
+    ExtraPermission: ''
+
+  Back:
+    RewardType: shop
+    PriceType: free
+    Reward: menu
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    Message: '&6Leaving the ItemShop...'
+    InventoryLocation: 54
+    ExtraPermission: ''

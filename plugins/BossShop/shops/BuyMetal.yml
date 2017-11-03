@@ -1,0 +1,307 @@
+ShopName: BuyMetal
+DisplayName: '&9&lBuyMetal'
+signs:
+  text: '[BuyMetal]'
+  NeedPermissionToCreateSign: true
+shop:
+
+  Item_1_1:
+    RewardType: item
+    PriceType: points
+    Price: 15
+    Reward:
+    - - type:IRON_INGOT
+      - amount:1
+    MenuItem:
+    - type:IRON_INGOT
+    - amount:1
+    - name:&b1 IRON_INGOT
+    - 'lore:#&cPrice 15 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 1
+    ExtraPermission: ''
+
+  Item_1_32:
+    RewardType: item
+    PriceType: points
+    Price: 480
+    Reward:
+    - - type:IRON_INGOT
+      - amount:32
+    MenuItem:
+    - type:IRON_INGOT
+    - amount:32
+    - name:&b32 IRON_INGOT
+    - 'lore:#&cPrice 480 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 2
+    ExtraPermission: ''
+
+  Item_1_64:
+    RewardType: item
+    PriceType: points
+    Price: 960
+    Reward:
+    - - type:IRON_INGOT
+      - amount:64
+    MenuItem:
+    - type:IRON_INGOT
+    - amount:64
+    - name:&b64 IRON_INGOT
+    - 'lore:#&cPrice 960 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 3
+    ExtraPermission: ''
+
+  Item_2_1:
+    RewardType: item
+    PriceType: points
+    Price: 18
+    Reward:
+    - - type:GOLD_INGOT
+      - amount:1
+    MenuItem:
+    - type:GOLD_INGOT
+    - amount:1
+    - name:&b1 GOLD_INGOT
+    - 'lore:#&cPrice 18 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 4
+    ExtraPermission: ''
+
+  Item_2_32:
+    RewardType: item
+    PriceType: points
+    Price: 576
+    Reward:
+    - - type:GOLD_INGOT
+      - amount:32
+    MenuItem:
+    - type:GOLD_INGOT
+    - amount:32
+    - name:&b32 GOLD_INGOT
+    - 'lore:#&cPrice 576 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 5
+    ExtraPermission: ''
+
+  Item_2_64:
+    RewardType: item
+    PriceType: points
+    Price: 1152
+    Reward:
+    - - type:GOLD_INGOT
+      - amount:64
+    MenuItem:
+    - type:GOLD_INGOT
+    - amount:64
+    - name:&b64 GOLD_INGOT
+    - 'lore:#&cPrice 1152 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 6
+    ExtraPermission: ''
+
+  Item_3_1:
+    RewardType: item
+    PriceType: points
+    Price: 25
+    Reward:
+    - - type:Emerald
+      - amount:1
+    MenuItem:
+    - type:Emerald
+    - amount:1
+    - name:&b1 Emerald
+    - 'lore:#&cPrice 25 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 7
+    ExtraPermission: ''
+
+  Item_3_32:
+    RewardType: item
+    PriceType: points
+    Price: 800
+    Reward:
+    - - type:Emerald
+      - amount:32
+    MenuItem:
+    - type:Emerald
+    - amount:32
+    - name:&b32 Emerald
+    - 'lore:#&cPrice 800 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 8
+    ExtraPermission: ''
+
+  Item_3_64:
+    RewardType: item
+    PriceType: points
+    Price: 1600
+    Reward:
+    - - type:Emerald
+      - amount:64
+    MenuItem:
+    - type:Emerald
+    - amount:64
+    - name:&b64 Emerald
+    - 'lore:#&cPrice 1600 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 9
+    ExtraPermission: ''
+
+  Item_4_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:Coal
+      - amount:1
+    MenuItem:
+    - type:Coal
+    - amount:1
+    - name:&b1 Coal
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 10
+    ExtraPermission: ''
+
+  Item_4_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:Coal
+      - amount:32
+    MenuItem:
+    - type:Coal
+    - amount:32
+    - name:&b32 Coal
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 11
+    ExtraPermission: ''
+
+  Item_4_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:Coal
+      - amount:64
+    MenuItem:
+    - type:Coal
+    - amount:64
+    - name:&b64 Coal
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 12
+    ExtraPermission: ''
+
+  Item_5_1:
+    RewardType: item
+    PriceType: points
+    Price: 500
+    Reward:
+    - - type:Diamond
+      - amount:1
+    MenuItem:
+    - type:Diamond
+    - amount:1
+    - name:&b1 Diamond
+    - 'lore:#&cPrice 500 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 13
+    ExtraPermission: ''
+
+  Item_5_32:
+    RewardType: item
+    PriceType: points
+    Price: 16000
+    Reward:
+    - - type:Diamond
+      - amount:32
+    MenuItem:
+    - type:Diamond
+    - amount:32
+    - name:&b32 Diamond
+    - 'lore:#&cPrice 16000 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 14
+    ExtraPermission: ''
+
+  Item_5_64:
+    RewardType: item
+    PriceType: points
+    Price: 32000
+    Reward:
+    - - type:Diamond
+      - amount:64
+    MenuItem:
+    - type:Diamond
+    - amount:64
+    - name:&b64 Diamond
+    - 'lore:#&cPrice 32000 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 15
+    ExtraPermission: ''
+
+  Item_6_1:
+    RewardType: item
+    PriceType: points
+    Price: 12
+    Reward:
+    - - type:RedStone
+      - amount:1
+    MenuItem:
+    - type:RedStone
+    - amount:1
+    - name:&b1 RedStone
+    - 'lore:#&cPrice 12 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 16
+    ExtraPermission: ''
+
+  Item_6_32:
+    RewardType: item
+    PriceType: points
+    Price: 384
+    Reward:
+    - - type:RedStone
+      - amount:32
+    MenuItem:
+    - type:RedStone
+    - amount:32
+    - name:&b32 RedStone
+    - 'lore:#&cPrice 384 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 17
+    ExtraPermission: ''
+
+  Item_6_64:
+    RewardType: item
+    PriceType: points
+    Price: 768
+    Reward:
+    - - type:RedStone
+      - amount:64
+    MenuItem:
+    - type:RedStone
+    - amount:64
+    - name:&b64 RedStone
+    - 'lore:#&cPrice 768 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 18
+    ExtraPermission: ''
+
+  Back:
+    RewardType: shop
+    PriceType: free
+    Reward: menu
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    Message: '&6Leaving the ItemShop...'
+    InventoryLocation: 54
+    ExtraPermission: ''

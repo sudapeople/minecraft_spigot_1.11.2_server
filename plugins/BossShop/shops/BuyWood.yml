@@ -1,0 +1,211 @@
+ShopName: BuyWood
+DisplayName: '&9&lBuyWood'
+signs:
+  text: '[BuyWood]'
+  NeedPermissionToCreateSign: true
+shop:
+
+  Item_1_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:LOG
+      - amount:1
+    MenuItem:
+    - type:LOG
+    - amount:1
+    - name:&b1 LOG
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 1
+    ExtraPermission: ''
+
+  Item_1_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:LOG
+      - amount:32
+    MenuItem:
+    - type:LOG
+    - amount:32
+    - name:&b32 LOG
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 2
+    ExtraPermission: ''
+
+  Item_1_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:LOG
+      - amount:64
+    MenuItem:
+    - type:LOG
+    - amount:64
+    - name:&b64 LOG
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 3
+    ExtraPermission: ''
+
+  Item_2_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:LOG:1
+      - amount:1
+    MenuItem:
+    - type:LOG:1
+    - amount:1
+    - name:&b1 LOG:1
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 4
+    ExtraPermission: ''
+
+  Item_2_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:LOG:1
+      - amount:32
+    MenuItem:
+    - type:LOG:1
+    - amount:32
+    - name:&b32 LOG:1
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 5
+    ExtraPermission: ''
+
+  Item_2_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:LOG:1
+      - amount:64
+    MenuItem:
+    - type:LOG:1
+    - amount:64
+    - name:&b64 LOG:1
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 6
+    ExtraPermission: ''
+
+  Item_3_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:LOG:2
+      - amount:1
+    MenuItem:
+    - type:LOG:2
+    - amount:1
+    - name:&b1 LOG:2
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 7
+    ExtraPermission: ''
+
+  Item_3_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:LOG:2
+      - amount:32
+    MenuItem:
+    - type:LOG:2
+    - amount:32
+    - name:&b32 LOG:2
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 8
+    ExtraPermission: ''
+
+  Item_3_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:LOG:2
+      - amount:64
+    MenuItem:
+    - type:LOG:2
+    - amount:64
+    - name:&b64 LOG:2
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 9
+    ExtraPermission: ''
+
+  Item_4_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:LOG:3
+      - amount:1
+    MenuItem:
+    - type:LOG:3
+    - amount:1
+    - name:&b1 LOG:3
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 10
+    ExtraPermission: ''
+
+  Item_4_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:LOG:3
+      - amount:32
+    MenuItem:
+    - type:LOG:3
+    - amount:32
+    - name:&b32 LOG:3
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 11
+    ExtraPermission: ''
+
+  Item_4_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:LOG:3
+      - amount:64
+    MenuItem:
+    - type:LOG:3
+    - amount:64
+    - name:&b64 LOG:3
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 12
+    ExtraPermission: ''
+
+  Back:
+    RewardType: shop
+    PriceType: free
+    Reward: menu
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    Message: '&6Leaving the ItemShop...'
+    InventoryLocation: 54
+    ExtraPermission: ''

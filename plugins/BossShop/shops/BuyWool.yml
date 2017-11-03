@@ -1,0 +1,787 @@
+ShopName: BuyWool
+DisplayName: '&9&lBuyWool'
+signs:
+  text: '[BuyWool]'
+  NeedPermissionToCreateSign: true
+shop:
+
+  Item_1_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:Wool
+      - amount:1
+    MenuItem:
+    - type:Wool
+    - amount:1
+    - name:&b1 Wool
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 1
+    ExtraPermission: ''
+
+  Item_1_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:Wool
+      - amount:32
+    MenuItem:
+    - type:Wool
+    - amount:32
+    - name:&b32 Wool
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 2
+    ExtraPermission: ''
+
+  Item_1_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:Wool
+      - amount:64
+    MenuItem:
+    - type:Wool
+    - amount:64
+    - name:&b64 Wool
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 3
+    ExtraPermission: ''
+
+  Item_2_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:Wool:1
+      - amount:1
+    MenuItem:
+    - type:Wool:1
+    - amount:1
+    - name:&b1 Wool:1
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 4
+    ExtraPermission: ''
+
+  Item_2_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:Wool:1
+      - amount:32
+    MenuItem:
+    - type:Wool:1
+    - amount:32
+    - name:&b32 Wool:1
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 5
+    ExtraPermission: ''
+
+  Item_2_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:Wool:1
+      - amount:64
+    MenuItem:
+    - type:Wool:1
+    - amount:64
+    - name:&b64 Wool:1
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 6
+    ExtraPermission: ''
+
+  Item_3_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:Wool:2
+      - amount:1
+    MenuItem:
+    - type:Wool:2
+    - amount:1
+    - name:&b1 Wool:2
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 7
+    ExtraPermission: ''
+
+  Item_3_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:Wool:2
+      - amount:32
+    MenuItem:
+    - type:Wool:2
+    - amount:32
+    - name:&b32 Wool:2
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 8
+    ExtraPermission: ''
+
+  Item_3_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:Wool:2
+      - amount:64
+    MenuItem:
+    - type:Wool:2
+    - amount:64
+    - name:&b64 Wool:2
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 9
+    ExtraPermission: ''
+
+  Item_4_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:Wool:3
+      - amount:1
+    MenuItem:
+    - type:Wool:3
+    - amount:1
+    - name:&b1 Wool:3
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 10
+    ExtraPermission: ''
+
+  Item_4_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:Wool:3
+      - amount:32
+    MenuItem:
+    - type:Wool:3
+    - amount:32
+    - name:&b32 Wool:3
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 11
+    ExtraPermission: ''
+
+  Item_4_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:Wool:3
+      - amount:64
+    MenuItem:
+    - type:Wool:3
+    - amount:64
+    - name:&b64 Wool:3
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 12
+    ExtraPermission: ''
+
+  Item_5_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:Wool:4
+      - amount:1
+    MenuItem:
+    - type:Wool:4
+    - amount:1
+    - name:&b1 Wool:4
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 13
+    ExtraPermission: ''
+
+  Item_5_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:Wool:4
+      - amount:32
+    MenuItem:
+    - type:Wool:4
+    - amount:32
+    - name:&b32 Wool:4
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 14
+    ExtraPermission: ''
+
+  Item_5_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:Wool:4
+      - amount:64
+    MenuItem:
+    - type:Wool:4
+    - amount:64
+    - name:&b64 Wool:4
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 15
+    ExtraPermission: ''
+
+  Item_6_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:Wool:5
+      - amount:1
+    MenuItem:
+    - type:Wool:5
+    - amount:1
+    - name:&b1 Wool:5
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 16
+    ExtraPermission: ''
+
+  Item_6_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:Wool:5
+      - amount:32
+    MenuItem:
+    - type:Wool:5
+    - amount:32
+    - name:&b32 Wool:5
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 17
+    ExtraPermission: ''
+
+  Item_6_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:Wool:5
+      - amount:64
+    MenuItem:
+    - type:Wool:5
+    - amount:64
+    - name:&b64 Wool:5
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 18
+    ExtraPermission: ''
+
+  Item_7_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:Wool:6
+      - amount:1
+    MenuItem:
+    - type:Wool:6
+    - amount:1
+    - name:&b1 Wool:6
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 19
+    ExtraPermission: ''
+
+  Item_7_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:Wool:6
+      - amount:32
+    MenuItem:
+    - type:Wool:6
+    - amount:32
+    - name:&b32 Wool:6
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 20
+    ExtraPermission: ''
+
+  Item_7_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:Wool:6
+      - amount:64
+    MenuItem:
+    - type:Wool:6
+    - amount:64
+    - name:&b64 Wool:6
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 21
+    ExtraPermission: ''
+
+  Item_8_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:Wool:7
+      - amount:1
+    MenuItem:
+    - type:Wool:7
+    - amount:1
+    - name:&b1 Wool:7
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 22
+    ExtraPermission: ''
+
+  Item_8_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:Wool:7
+      - amount:32
+    MenuItem:
+    - type:Wool:7
+    - amount:32
+    - name:&b32 Wool:7
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 23
+    ExtraPermission: ''
+
+  Item_8_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:Wool:7
+      - amount:64
+    MenuItem:
+    - type:Wool:7
+    - amount:64
+    - name:&b64 Wool:7
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 24
+    ExtraPermission: ''
+
+  Item_9_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:Wool:8
+      - amount:1
+    MenuItem:
+    - type:Wool:8
+    - amount:1
+    - name:&b1 Wool:8
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 25
+    ExtraPermission: ''
+
+  Item_9_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:Wool:8
+      - amount:32
+    MenuItem:
+    - type:Wool:8
+    - amount:32
+    - name:&b32 Wool:8
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 26
+    ExtraPermission: ''
+
+  Item_9_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:Wool:8
+      - amount:64
+    MenuItem:
+    - type:Wool:8
+    - amount:64
+    - name:&b64 Wool:8
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 27
+    ExtraPermission: ''
+
+  Item_10_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:Wool:9
+      - amount:1
+    MenuItem:
+    - type:Wool:9
+    - amount:1
+    - name:&b1 Wool:9
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 28
+    ExtraPermission: ''
+
+  Item_10_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:Wool:9
+      - amount:32
+    MenuItem:
+    - type:Wool:9
+    - amount:32
+    - name:&b32 Wool:9
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 29
+    ExtraPermission: ''
+
+  Item_10_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:Wool:9
+      - amount:64
+    MenuItem:
+    - type:Wool:9
+    - amount:64
+    - name:&b64 Wool:9
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 30
+    ExtraPermission: ''
+
+  Item_11_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:Wool:10
+      - amount:1
+    MenuItem:
+    - type:Wool:10
+    - amount:1
+    - name:&b1 Wool:10
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 31
+    ExtraPermission: ''
+
+  Item_11_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:Wool:10
+      - amount:32
+    MenuItem:
+    - type:Wool:10
+    - amount:32
+    - name:&b32 Wool:10
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 32
+    ExtraPermission: ''
+
+  Item_11_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:Wool:10
+      - amount:64
+    MenuItem:
+    - type:Wool:10
+    - amount:64
+    - name:&b64 Wool:10
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 33
+    ExtraPermission: ''
+
+  Item_12_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:Wool:11
+      - amount:1
+    MenuItem:
+    - type:Wool:11
+    - amount:1
+    - name:&b1 Wool:11
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 34
+    ExtraPermission: ''
+
+  Item_12_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:Wool:11
+      - amount:32
+    MenuItem:
+    - type:Wool:11
+    - amount:32
+    - name:&b32 Wool:11
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 35
+    ExtraPermission: ''
+
+  Item_12_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:Wool:11
+      - amount:64
+    MenuItem:
+    - type:Wool:11
+    - amount:64
+    - name:&b64 Wool:11
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 36
+    ExtraPermission: ''
+
+  Item_13_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:Wool:12
+      - amount:1
+    MenuItem:
+    - type:Wool:12
+    - amount:1
+    - name:&b1 Wool:12
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 37
+    ExtraPermission: ''
+
+  Item_13_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:Wool:12
+      - amount:32
+    MenuItem:
+    - type:Wool:12
+    - amount:32
+    - name:&b32 Wool:12
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 38
+    ExtraPermission: ''
+
+  Item_13_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:Wool:12
+      - amount:64
+    MenuItem:
+    - type:Wool:12
+    - amount:64
+    - name:&b64 Wool:12
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 39
+    ExtraPermission: ''
+
+  Item_14_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:Wool:13
+      - amount:1
+    MenuItem:
+    - type:Wool:13
+    - amount:1
+    - name:&b1 Wool:13
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 40
+    ExtraPermission: ''
+
+  Item_14_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:Wool:13
+      - amount:32
+    MenuItem:
+    - type:Wool:13
+    - amount:32
+    - name:&b32 Wool:13
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 41
+    ExtraPermission: ''
+
+  Item_14_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:Wool:13
+      - amount:64
+    MenuItem:
+    - type:Wool:13
+    - amount:64
+    - name:&b64 Wool:13
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 42
+    ExtraPermission: ''
+
+  Item_15_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:Wool:14
+      - amount:1
+    MenuItem:
+    - type:Wool:14
+    - amount:1
+    - name:&b1 Wool:14
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 43
+    ExtraPermission: ''
+
+  Item_15_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:Wool:14
+      - amount:32
+    MenuItem:
+    - type:Wool:14
+    - amount:32
+    - name:&b32 Wool:14
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 44
+    ExtraPermission: ''
+
+  Item_15_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:Wool:14
+      - amount:64
+    MenuItem:
+    - type:Wool:14
+    - amount:64
+    - name:&b64 Wool:14
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 45
+    ExtraPermission: ''
+
+  Item_16_1:
+    RewardType: item
+    PriceType: points
+    Price: 10
+    Reward:
+    - - type:Wool:15
+      - amount:1
+    MenuItem:
+    - type:Wool:15
+    - amount:1
+    - name:&b1 Wool:15
+    - 'lore:#&cPrice 10 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 46
+    ExtraPermission: ''
+
+  Item_16_32:
+    RewardType: item
+    PriceType: points
+    Price: 320
+    Reward:
+    - - type:Wool:15
+      - amount:32
+    MenuItem:
+    - type:Wool:15
+    - amount:32
+    - name:&b32 Wool:15
+    - 'lore:#&cPrice 320 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 47
+    ExtraPermission: ''
+
+  Item_16_64:
+    RewardType: item
+    PriceType: points
+    Price: 640
+    Reward:
+    - - type:Wool:15
+      - amount:64
+    MenuItem:
+    - type:Wool:15
+    - amount:64
+    - name:&b64 Wool:15
+    - 'lore:#&cPrice 640 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 48
+    ExtraPermission: ''
+
+  Back:
+    RewardType: shop
+    PriceType: free
+    Reward: menu
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    Message: '&6Leaving the ItemShop...'
+    InventoryLocation: 54
+    ExtraPermission: ''

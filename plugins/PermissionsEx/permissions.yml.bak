@@ -1,0 +1,65 @@
+groups:
+    default:
+        default: true
+        permissions:
+            - 'home.*'
+            - 'tp*'
+            - 'rtp'
+            - 'backpack.*'
+            - 'pocketcrafter.*'
+            - 'lobby'
+            - 'BossShop.open'
+            - 'PlayerPoints.me'
+            - 'SimpleAlias.use.*'
+            - 'autopockets.cmd'
+            - 'autopickup.pickup'
+            - 'fly.togglefly'
+            - 'AutoPickup.enabled'
+            - 'AutoPickup.BlockGui'
+            - 'miningcash.reward'
+            - 'MiningMoney.allow'
+    'admin':
+        options:
+            default: false
+            build: true
+            inheritance:
+                - 'default'
+            permissions:
+                - '*'
+    'vip':
+        default: false
+        build: true
+        permissions:
+            - 'worldedit.*'
+            - 'fly.togglefly'
+            - 'home.*'
+            - 'tp*'
+            - 'rtp'
+            - 'backpack.*'
+            - 'pocketcrafter.*'
+            - 'lobby'
+            - 'BossShop.open'
+            - 'PlayerPoints.me'
+            - 'SimpleAlias.use.*'
+            - 'autopockets.cmd'
+            - 'autopickup.pickup'
+            - 'fly.togglefly'
+            - 'AutoPickup.enabled'
+            - 'AutoPickup.BlockGui'
+            - 'miningcash.reward'
+            - 'MiningMoney.allow'
+    'users':
+        'sudapeople':
+            group:
+                - 'admin'
+            permissions:
+                - '*'
+            prefix: '&a[A]&f'
+            suffix: '&a[Super]&f'
+        'EMONGE':
+            group:
+                - 'vip'
+            prefix: '&a[VIP]&f'
+            suffix: '&a[VIP]&f'
+
+schema-version: 1

@@ -1,0 +1,747 @@
+ShopName: SellDirt
+DisplayName: '&b&lSellDirt'
+signs:
+  text: '[SellDirt]'
+  NeedPermissionToCreateSign: true
+shop:
+
+  Item1_1:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:GRASS
+      - amount:1
+    Reward: 1
+    MenuItem:
+    - type:GRASS
+    - amount:1
+    - name:&b1 GRASS
+    - 'lore:&2Reward: 1 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 1
+    ExtraPermission: ''
+
+  Item1_2:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:GRASS
+      - amount:2
+    Reward: 2
+    MenuItem:
+    - type:GRASS
+    - amount:2
+    - name:&b2 GRASS
+    - 'lore:&2Reward: 2 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 2
+    ExtraPermission: ''
+
+  Item1_4:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:GRASS
+      - amount:4
+    Reward: 4
+    MenuItem:
+    - type:GRASS
+    - amount:4
+    - name:&b4 GRASS
+    - 'lore:&2Reward: 4 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 3
+    ExtraPermission: ''
+
+  Item1_8:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:GRASS
+      - amount:8
+    Reward: 8
+    MenuItem:
+    - type:GRASS
+    - amount:8
+    - name:&b8 GRASS
+    - 'lore:&2Reward: 8 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 4
+    ExtraPermission: ''
+
+  Item1_12:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:GRASS
+      - amount:12
+    Reward: 12
+    MenuItem:
+    - type:GRASS
+    - amount:12
+    - name:&b12 GRASS
+    - 'lore:&2Reward: 12 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 5
+    ExtraPermission: ''
+
+  Item1_16:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:GRASS
+      - amount:16
+    Reward: 16
+    MenuItem:
+    - type:GRASS
+    - amount:16
+    - name:&b16 GRASS
+    - 'lore:&2Reward: 16 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 6
+    ExtraPermission: ''
+
+  Item1_20:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:GRASS
+      - amount:20
+    Reward: 20
+    MenuItem:
+    - type:GRASS
+    - amount:20
+    - name:&b20 GRASS
+    - 'lore:&2Reward: 20 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 7
+    ExtraPermission: ''
+
+  Item1_32:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:GRASS
+      - amount:32
+    Reward: 32
+    MenuItem:
+    - type:GRASS
+    - amount:32
+    - name:&b32 GRASS
+    - 'lore:&2Reward: 32 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 8
+    ExtraPermission: ''
+
+  Item1_64:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:GRASS
+      - amount:64
+    Reward: 64
+    MenuItem:
+    - type:GRASS
+    - amount:64
+    - name:&b64 GRASS
+    - 'lore:&2Reward: 64 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 9
+    ExtraPermission: ''
+
+  Dirt_1:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Dirt
+      - amount:1
+    Reward: 1
+    MenuItem:
+    - type:Dirt
+    - amount:1
+    - name:&b1 Dirt
+    - 'lore:&2Reward: 1 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 10
+    ExtraPermission: ''
+
+  Dirt_2:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Dirt
+      - amount:2
+    Reward: 2
+    MenuItem:
+    - type:Dirt
+    - amount:2
+    - name:&b2 Dirt
+    - 'lore:&2Reward: 2 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 11
+    ExtraPermission: ''
+
+  Dirt_4:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Dirt
+      - amount:4
+    Reward: 4
+    MenuItem:
+    - type:Dirt
+    - amount:4
+    - name:&b4 Dirt
+    - 'lore:&2Reward: 4 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 12
+    ExtraPermission: ''
+
+  Dirt_8:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Dirt
+      - amount:8
+    Reward: 8
+    MenuItem:
+    - type:Dirt
+    - amount:8
+    - name:&b8 Dirt
+    - 'lore:&2Reward: 8 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 13
+    ExtraPermission: ''
+
+  Dirt_12:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Dirt
+      - amount:12
+    Reward: 12
+    MenuItem:
+    - type:Dirt
+    - amount:12
+    - name:&b12 Dirt
+    - 'lore:&2Reward: 12 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 14
+    ExtraPermission: ''
+
+  Dirt_16:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Dirt
+      - amount:16
+    Reward: 16
+    MenuItem:
+    - type:Dirt
+    - amount:16
+    - name:&b16 Dirt
+    - 'lore:&2Reward: 16 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 15
+    ExtraPermission: ''
+
+  Dirt_20:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Dirt
+      - amount:20
+    Reward: 20
+    MenuItem:
+    - type:Dirt
+    - amount:20
+    - name:&b20 Dirt
+    - 'lore:&2Reward: 20 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 16
+    ExtraPermission: ''
+
+  Dirt_32:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Dirt
+      - amount:32
+    Reward: 32
+    MenuItem:
+    - type:Dirt
+    - amount:32
+    - name:&b32 Dirt
+    - 'lore:&2Reward: 32 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 17
+    ExtraPermission: ''
+
+  Dirt_64:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Dirt
+      - amount:64
+    Reward: 64
+    MenuItem:
+    - type:Dirt
+    - amount:64
+    - name:&b64 Dirt
+    - 'lore:&2Reward: 64 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 18
+    ExtraPermission: ''
+
+#---
+
+  Sand_1:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Sand
+      - amount:1
+    Reward: 1
+    MenuItem:
+    - type:Sand
+    - amount:1
+    - name:&b1 Sand
+    - 'lore:&2Reward: 1 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 19
+    ExtraPermission: ''
+
+  Sand_2:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Sand
+      - amount:2
+    Reward: 2
+    MenuItem:
+    - type:Sand
+    - amount:2
+    - name:&b2 Sand
+    - 'lore:&2Reward: 2 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 20
+    ExtraPermission: ''
+
+  Sand_4:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Sand
+      - amount:4
+    Reward: 4
+    MenuItem:
+    - type:Sand
+    - amount:4
+    - name:&b4 Sand
+    - 'lore:&2Reward: 4 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 21
+    ExtraPermission: ''
+
+  Sand_8:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Sand
+      - amount:8
+    Reward: 8
+    MenuItem:
+    - type:Sand
+    - amount:8
+    - name:&b8 Sand
+    - 'lore:&2Reward: 8 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 22
+    ExtraPermission: ''
+
+  Sand_12:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Sand
+      - amount:12
+    Reward: 12
+    MenuItem:
+    - type:Sand
+    - amount:12
+    - name:&b12 Sand
+    - 'lore:&2Reward: 12 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 23
+    ExtraPermission: ''
+
+  Sand_16:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Sand
+      - amount:16
+    Reward: 16
+    MenuItem:
+    - type:Sand
+    - amount:16
+    - name:&b16 Sand
+    - 'lore:&2Reward: 16 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 24
+    ExtraPermission: ''
+
+  Sand_20:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Sand
+      - amount:20
+    Reward: 20
+    MenuItem:
+    - type:Sand
+    - amount:20
+    - name:&b20 Sand
+    - 'lore:&2Reward: 20 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 25
+    ExtraPermission: ''
+
+  Sand_32:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Sand
+      - amount:32
+    Reward: 32
+    MenuItem:
+    - type:Sand
+    - amount:32
+    - name:&b32 Sand
+    - 'lore:&2Reward: 32 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 26
+    ExtraPermission: ''
+
+  Sand_64:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Sand
+      - amount:64
+    Reward: 64
+    MenuItem:
+    - type:Sand
+    - amount:64
+    - name:&b64 Sand
+    - 'lore:&2Reward: 64 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 27
+    ExtraPermission: ''
+
+#---
+
+  SandStone_1:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:SandStone
+      - amount:1
+    Reward: 1
+    MenuItem:
+    - type:SandStone
+    - amount:1
+    - name:&b1 SandStone
+    - 'lore:&2Reward: 1 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 28
+    ExtraPermission: ''
+
+  SandStone_2:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:SandStone
+      - amount:2
+    Reward: 2
+    MenuItem:
+    - type:SandStone
+    - amount:2
+    - name:&b2 SandStone
+    - 'lore:&2Reward: 2 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 29
+    ExtraPermission: ''
+
+  SandStone_4:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:SandStone
+      - amount:4
+    Reward: 4
+    MenuItem:
+    - type:SandStone
+    - amount:4
+    - name:&b4 SandStone
+    - 'lore:&2Reward: 4 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 30
+    ExtraPermission: ''
+
+  SandStone_8:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:SandStone
+      - amount:8
+    Reward: 8
+    MenuItem:
+    - type:SandStone
+    - amount:8
+    - name:&b8 SandStone
+    - 'lore:&2Reward: 8 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 31
+    ExtraPermission: ''
+
+  SandStone_12:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:SandStone
+      - amount:12
+    Reward: 12
+    MenuItem:
+    - type:SandStone
+    - amount:12
+    - name:&b12 SandStone
+    - 'lore:&2Reward: 12 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 32
+    ExtraPermission: ''
+
+  SandStone_16:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:SandStone
+      - amount:16
+    Reward: 16
+    MenuItem:
+    - type:SandStone
+    - amount:16
+    - name:&b16 SandStone
+    - 'lore:&2Reward: 16 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 33
+    ExtraPermission: ''
+
+  SandStone_20:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:SandStone
+      - amount:20
+    Reward: 20
+    MenuItem:
+    - type:SandStone
+    - amount:20
+    - name:&b20 SandStone
+    - 'lore:&2Reward: 20 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 34
+    ExtraPermission: ''
+
+  SandStone_32:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:SandStone
+      - amount:32
+    Reward: 32
+    MenuItem:
+    - type:SandStone
+    - amount:32
+    - name:&b32 SandStone
+    - 'lore:&2Reward: 32 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 35
+    ExtraPermission: ''
+
+  SandStone_64:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:SandStone
+      - amount:64
+    Reward: 64
+    MenuItem:
+    - type:SandStone
+    - amount:64
+    - name:&b64 SandStone
+    - 'lore:&2Reward: 64 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 36
+    ExtraPermission: ''
+
+#---
+
+  gravel_1:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:gravel
+      - amount:1
+    Reward: 1
+    MenuItem:
+    - type:gravel
+    - amount:1
+    - name:&b1 gravel
+    - 'lore:&2Reward: 1 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 37
+    ExtraPermission: ''
+
+  gravel_2:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:gravel
+      - amount:2
+    Reward: 2
+    MenuItem:
+    - type:gravel
+    - amount:2
+    - name:&b2 gravel
+    - 'lore:&2Reward: 2 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 38
+    ExtraPermission: ''
+
+  gravel_4:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:gravel
+      - amount:4
+    Reward: 4
+    MenuItem:
+    - type:gravel
+    - amount:4
+    - name:&b4 gravel
+    - 'lore:&2Reward: 4 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 39
+    ExtraPermission: ''
+
+  gravel_8:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:gravel
+      - amount:8
+    Reward: 8
+    MenuItem:
+    - type:gravel
+    - amount:8
+    - name:&b8 gravel
+    - 'lore:&2Reward: 8 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 40
+    ExtraPermission: ''
+
+  gravel_12:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:gravel
+      - amount:12
+    Reward: 12
+    MenuItem:
+    - type:gravel
+    - amount:12
+    - name:&b12 gravel
+    - 'lore:&2Reward: 12 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 41
+    ExtraPermission: ''
+
+  gravel_16:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:gravel
+      - amount:16
+    Reward: 16
+    MenuItem:
+    - type:gravel
+    - amount:16
+    - name:&b16 gravel
+    - 'lore:&2Reward: 16 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 42
+    ExtraPermission: ''
+
+  gravel_20:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:gravel
+      - amount:20
+    Reward: 20
+    MenuItem:
+    - type:gravel
+    - amount:20
+    - name:&b20 gravel
+    - 'lore:&2Reward: 20 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 43
+    ExtraPermission: ''
+
+  gravel_32:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:gravel
+      - amount:32
+    Reward: 32
+    MenuItem:
+    - type:gravel
+    - amount:32
+    - name:&b32 gravel
+    - 'lore:&2Reward: 32 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 44
+    ExtraPermission: ''
+
+  gravel_64:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:gravel
+      - amount:64
+    Reward: 64
+    MenuItem:
+    - type:gravel
+    - amount:64
+    - name:&b64 gravel
+    - 'lore:&2Reward: 64 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 45
+    ExtraPermission: ''
+
+#---
+
+  Back:
+    RewardType: shop
+    PriceType: free
+    Reward: menu
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    Message: '&6Leaving the ItemShop...'
+    InventoryLocation: 54
+    ExtraPermission: ''

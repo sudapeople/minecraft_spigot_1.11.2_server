@@ -1,0 +1,595 @@
+ShopName: BuyEtc
+DisplayName: '&9&lBuyEtc'
+signs:
+  text: '[BuyEtc]'
+  NeedPermissionToCreateSign: true
+shop:
+
+  Item_1_1:
+    RewardType: item
+    PriceType: points
+    Price: 1
+    Reward:
+    - - type:Flint
+      - amount:1
+    MenuItem:
+    - type:Flint
+    - amount:1
+    - name:&b1 Flint
+    - 'lore:#&cPrice 1 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 1
+    ExtraPermission: ''
+
+  Item_1_32:
+    RewardType: item
+    PriceType: points
+    Price: 32
+    Reward:
+    - - type:Flint
+      - amount:32
+    MenuItem:
+    - type:Flint
+    - amount:32
+    - name:&b32 Flint
+    - 'lore:#&cPrice 32 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 2
+    ExtraPermission: ''
+
+  Item_1_64:
+    RewardType: item
+    PriceType: points
+    Price: 64
+    Reward:
+    - - type:Flint
+      - amount:64
+    MenuItem:
+    - type:Flint
+    - amount:64
+    - name:&b64 Flint
+    - 'lore:#&cPrice 64 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 3
+    ExtraPermission: ''
+
+  Item_2_1:
+    RewardType: item
+    PriceType: points
+    Price: 1
+    Reward:
+    - - type:Torch
+      - amount:1
+    MenuItem:
+    - type:Torch
+    - amount:1
+    - name:&b1 Torch
+    - 'lore:#&cPrice 1 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 4
+    ExtraPermission: ''
+
+  Item_2_32:
+    RewardType: item
+    PriceType: points
+    Price: 32
+    Reward:
+    - - type:Torch
+      - amount:32
+    MenuItem:
+    - type:Torch
+    - amount:32
+    - name:&b32 Torch
+    - 'lore:#&cPrice 32 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 5
+    ExtraPermission: ''
+
+  Item_2_64:
+    RewardType: item
+    PriceType: points
+    Price: 64
+    Reward:
+    - - type:Torch
+      - amount:64
+    MenuItem:
+    - type:Torch
+    - amount:64
+    - name:&b64 Torch
+    - 'lore:#&cPrice 64 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 6
+    ExtraPermission: ''
+
+  Item3_1:
+    RewardType: item
+    PriceType: points
+    Price: 1
+    Reward:
+    - - type:seeds
+      - amount:1
+    MenuItem:
+    - type:seeds
+    - amount:1
+    - name:&b1 seeds
+    - 'lore:#&cPrice 1 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 7
+    ExtraPermission: ''
+
+  Item3_32:
+    RewardType: item
+    PriceType: points
+    Price: 32
+    Reward:
+    - - type:seeds
+      - amount:32
+    MenuItem:
+    - type:seeds
+    - amount:32
+    - name:&b32 seeds
+    - 'lore:#&cPrice 32 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 8
+    ExtraPermission: ''
+
+  Item3_64:
+    RewardType: item
+    PriceType: points
+    Price: 64
+    Reward:
+    - - type:seeds
+      - amount:64
+    MenuItem:
+    - type:seeds
+    - amount:64
+    - name:&b64 seeds
+    - 'lore:#&cPrice 64 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 9
+    ExtraPermission: ''
+
+  Item4_1:
+    RewardType: item
+    PriceType: points
+    Price: 30
+    Reward:
+    - - type:Paper
+      - amount:1
+    MenuItem:
+    - type:Paper
+    - amount:1
+    - name:&b1 Paper
+    - 'lore:#&cPrice 30 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 10
+    ExtraPermission: ''
+
+  Item4_32:
+    RewardType: item
+    PriceType: points
+    Price: 960
+    Reward:
+    - - type:Paper
+      - amount:32
+    MenuItem:
+    - type:Paper
+    - amount:32
+    - name:&b32 Paper
+    - 'lore:#&cPrice 960 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 11
+    ExtraPermission: ''
+
+  Item4_64:
+    RewardType: item
+    PriceType: points
+    Price: 1920
+    Reward:
+    - - type:Paper
+      - amount:64
+    MenuItem:
+    - type:Paper
+    - amount:64
+    - name:&b64 Paper
+    - 'lore:#&cPrice 1920 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 12
+    ExtraPermission: ''
+
+  Item5_1:
+    RewardType: item
+    PriceType: points
+    Price: 200
+    Reward:
+    - - type:Book
+      - amount:1
+    MenuItem:
+    - type:Book
+    - amount:1
+    - name:&b1 Book
+    - 'lore:#&cPrice 200 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 13
+    ExtraPermission: ''
+
+  Item5_32:
+    RewardType: item
+    PriceType: points
+    Price: 6400
+    Reward:
+    - - type:Book
+      - amount:32
+    MenuItem:
+    - type:Book
+    - amount:32
+    - name:&b32 Book
+    - 'lore:#&cPrice 6400 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 14
+    ExtraPermission: ''
+
+  Item5_64:
+    RewardType: item
+    PriceType: points
+    Price: 12800
+    Reward:
+    - - type:Book
+      - amount:64
+    MenuItem:
+    - type:Book
+    - amount:64
+    - name:&b64 Book
+    - 'lore:#&cPrice 12800 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 15
+    ExtraPermission: ''
+
+  Item6_1:
+    RewardType: item
+    PriceType: points
+    Price: 500
+    Reward:
+    - - type:Bucket
+      - amount:1
+    MenuItem:
+    - type:Bucket
+    - amount:1
+    - name:&b1 Bucket
+    - 'lore:#&cPrice 500 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 16
+    ExtraPermission: ''
+
+  Item7_1:
+    RewardType: item
+    PriceType: points
+    Price: 1000
+    Reward:
+    - - type:water_bucket
+      - amount:1
+    MenuItem:
+    - type:water_bucket
+    - amount:1
+    - name:&b1 water_bucket
+    - 'lore:#&cPrice 1000 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 17
+    ExtraPermission: ''
+
+  Item8_1:
+    RewardType: item
+    PriceType: points
+    Price: 2000
+    Reward:
+    - - type:lava_bucket
+      - amount:1
+    MenuItem:
+    - type:lava_bucket
+    - amount:1
+    - name:&b1 lava_bucket
+    - 'lore:#&cPrice 2000 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 18
+    ExtraPermission: ''
+
+  Item9_1:
+    RewardType: item
+    PriceType: points
+    Price: 1
+    Reward:
+    - - type:carrot
+      - amount:1
+    MenuItem:
+    - type:carrot
+    - amount:1
+    - name:&b1 carrot
+    - 'lore:#&cPrice 1 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 19
+    ExtraPermission: ''
+
+  Item9_32:
+    RewardType: item
+    PriceType: points
+    Price: 32
+    Reward:
+    - - type:carrot
+      - amount:32
+    MenuItem:
+    - type:carrot
+    - amount:32
+    - name:&b32 carrot
+    - 'lore:#&cPrice 32 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 20
+    ExtraPermission: ''
+
+  Item9_64:
+    RewardType: item
+    PriceType: points
+    Price: 64
+    Reward:
+    - - type:carrot
+      - amount:64
+    MenuItem:
+    - type:carrot
+    - amount:64
+    - name:&b64 carrot
+    - 'lore:#&cPrice 64 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 21
+    ExtraPermission: ''
+
+  Item10_1:
+    RewardType: item
+    PriceType: points
+    Price: 1
+    Reward:
+    - - type:Potato
+      - amount:1
+    MenuItem:
+    - type:Potato
+    - amount:1
+    - name:&b1 Potato
+    - 'lore:#&cPrice 1 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 22
+    ExtraPermission: ''
+
+  Item10_32:
+    RewardType: item
+    PriceType: points
+    Price: 32
+    Reward:
+    - - type:Potato
+      - amount:32
+    MenuItem:
+    - type:Potato
+    - amount:32
+    - name:&b32 Potato
+    - 'lore:#&cPrice 32 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 23
+    ExtraPermission: ''
+
+  Item10_64:
+    RewardType: item
+    PriceType: points
+    Price: 64
+    Reward:
+    - - type:Potato
+      - amount:64
+    MenuItem:
+    - type:Potato
+    - amount:64
+    - name:&b64 Potato
+    - 'lore:#&cPrice 64 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 24
+    ExtraPermission: ''
+
+  Item11_1:
+    RewardType: item
+    PriceType: points
+    Price: 1
+    Reward:
+    - - type:Beetroot_Seeds
+      - amount:1
+    MenuItem:
+    - type:Beetroot_Seeds
+    - amount:1
+    - name:&b1 Beetroot_Seeds
+    - 'lore:#&cPrice 1 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 25
+    ExtraPermission: ''
+
+  Item11_32:
+    RewardType: item
+    PriceType: points
+    Price: 32
+    Reward:
+    - - type:Beetroot_Seeds
+      - amount:32
+    MenuItem:
+    - type:Beetroot_Seeds
+    - amount:32
+    - name:&b32 Beetroot_Seeds
+    - 'lore:#&cPrice 32 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 26
+    ExtraPermission: ''
+
+  Item11_64:
+    RewardType: item
+    PriceType: points
+    Price: 64
+    Reward:
+    - - type:Beetroot_Seeds
+      - amount:64
+    MenuItem:
+    - type:Beetroot_Seeds
+    - amount:64
+    - name:&b64 Beetroot_Seeds
+    - 'lore:#&cPrice 64 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 27
+    ExtraPermission: ''
+
+  Item12_1:
+    RewardType: item
+    PriceType: points
+    Price: 1
+    Reward:
+    - - type:pumpkin_seeds
+      - amount:1
+    MenuItem:
+    - type:pumpkin_seeds
+    - amount:1
+    - name:&b1 pumpkin_seeds
+    - 'lore:#&cPrice 1 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 28
+    ExtraPermission: ''
+
+  Item12_32:
+    RewardType: item
+    PriceType: points
+    Price: 32
+    Reward:
+    - - type:pumpkin_seeds
+      - amount:32
+    MenuItem:
+    - type:pumpkin_seeds
+    - amount:32
+    - name:&b32 pumpkin_seeds
+    - 'lore:#&cPrice 32 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 29
+    ExtraPermission: ''
+
+  Item12_64:
+    RewardType: item
+    PriceType: points
+    Price: 64
+    Reward:
+    - - type:pumpkin_seeds
+      - amount:64
+    MenuItem:
+    - type:pumpkin_seeds
+    - amount:64
+    - name:&b64 pumpkin_seeds
+    - 'lore:#&cPrice 64 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 30
+    ExtraPermission: ''
+
+  Item13_1:
+    RewardType: item
+    PriceType: points
+    Price: 1
+    Reward:
+    - - type:melon_seeds
+      - amount:1
+    MenuItem:
+    - type:melon_seeds
+    - amount:1
+    - name:&b1 melon_seeds
+    - 'lore:#&cPrice 1 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 31
+    ExtraPermission: ''
+
+  Item13_32:
+    RewardType: item
+    PriceType: points
+    Price: 32
+    Reward:
+    - - type:melon_seeds
+      - amount:32
+    MenuItem:
+    - type:melon_seeds
+    - amount:32
+    - name:&b32 melon_seeds
+    - 'lore:#&cPrice 32 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 32
+    ExtraPermission: ''
+
+  Item13_64:
+    RewardType: item
+    PriceType: points
+    Price: 64
+    Reward:
+    - - type:melon_seeds
+      - amount:64
+    MenuItem:
+    - type:melon_seeds
+    - amount:64
+    - name:&b64 melon_seeds
+    - 'lore:#&cPrice 64 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 33
+    ExtraPermission: ''
+
+  Item48_1:
+    RewardType: item
+    PriceType: points
+    Price: 5
+    Reward:
+    - - type:Bone
+      - amount:1
+    MenuItem:
+    - type:Bone
+    - amount:1
+    - name:&b1 Bone
+    - 'lore:#&cPrice 5 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 44
+    ExtraPermission: ''
+
+  Item_49_1:
+    RewardType: item
+    PriceType: points
+    Price: 5000
+    Reward:
+    - - type:TNT
+      - amount:1
+    MenuItem:
+    - type:TNT
+    - amount:1
+    - name:&b1 TNT
+    - 'lore:#&cPrice 5000 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 45
+    ExtraPermission: ''
+
+  Item_50_1:
+    RewardType: item
+    PriceType: points
+    Price: 500
+    Reward:
+    - - type:Anvil
+      - amount:1
+    MenuItem:
+    - type:Anvil
+    - amount:1
+    - name:&b1 Anvil
+    - 'lore:#&cPrice 500 points'
+    Message: '&eYou bought %itemname%&e! points left: &c%left%'
+    InventoryLocation: 46
+    ExtraPermission: ''
+
+  Back:
+    RewardType: shop
+    PriceType: free
+    Reward: menu
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    Message: '&6Leaving the ItemShop...'
+    InventoryLocation: 54
+    ExtraPermission: ''

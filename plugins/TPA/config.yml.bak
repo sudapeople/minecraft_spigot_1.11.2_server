@@ -1,0 +1,19 @@
+CooldownInSeconds: 20
+#Request message
+Line1: "&6&lTpa > &aTPA request from &6/sender/" 
+Line2: "&aWrite &b&l/tpaccept &ato accept or &c&l/tpdeny &ato deny"
+#Request sent message
+RequestSent: "&6&lTpa > &aTPA request sent to &6/target/"
+#Request accepted or denied
+RequestAcceptedTeleport: "&6/sender/ &ahas been teleported to you!"
+RequestAccepted: "&6/target/ &aaccepted the teleport!"
+NoRequestToAccept: "&c&lTpa > &7No request to accept!"
+RequestDeniedTeleport: "&c&lTpa > &6/target/ &7denied the teleport "
+RequestDenied: "&c&lTpa > &7You denied the teleport"
+NoRequestToDeny: "&c&lTpa > &7No request to deny!"
+#Errors
+CooldownError: "&c&lTpa > &7You have to wait for a new TPA request"
+PlayerInAnotherWorldError: "&c&lTpa > &7You can't teleport to a player into another world!"
+SpecifyPlayerError: "&c&lTpa > &7Please specify a player!"
+PlayerDoesNotExistError: "&c&lTpa > &7That player doesn't exist!"
+TpaFromConsoleError: "&cYou can't use the plug-in from the console!"

@@ -1,0 +1,41 @@
+# This section contains all general settings for the alias
+# Remove the '#' before a setting (for example 'Enabled_Worlds') to enable it
+General_Settings:
+  Description: No description set
+  Executable_As_Console: true
+  Usage_Check:
+    Enabled: false
+    Min_Params: 0
+    Max_Params: 0
+    Message: '&cInvalid usage!\n&6/example'
+  Actions:
+    ExecuteCommand:
+      Type: COMMAND
+      Priority: 0
+      Translate_Color_Codes: false
+      Command: homelist
+      Executor: SENDER
+      Grant_Permission: false
+  Execution_Order: ExecuteCommand
+  Permission:
+    Enabled: true
+    Node: SimpleAlias.use.example
+    Message: '&cYou don''t have permission for this alias!'
+  Delay:
+    Enabled: false
+    Cancel_On_Move: false
+    Duration: 10
+    Message: '&6The alias execution will commence in &e<remaining_time>&6.'
+    Cancel_Message: '&4The alias execution request was cancelled!'
+  Cooldown:
+    Enabled: false
+    Duration: 180
+    Message: '&cYou have to wait <remaining_time> until you can execute this alias
+      again!'
+  Cost:
+    Enabled: false
+    Amount: 40.0
+    Message: '&cYou don''t have enough money to use this alias! &8(&6<cost_amount>&8)'
+  Logging:
+    Enabled: false
+    Message: <alias> was executed by <player_name>

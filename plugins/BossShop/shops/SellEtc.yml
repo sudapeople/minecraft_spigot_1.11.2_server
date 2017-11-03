@@ -1,0 +1,311 @@
+ShopName: SellEtc
+DisplayName: '&b&lSellEtc'
+signs:
+  text: '[SellEtc]'
+  NeedPermissionToCreateSign: true
+shop:
+
+  Flint_1:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Flint
+      - amount:1
+    Reward: 0.1
+    MenuItem:
+    - type:Flint
+    - amount:1
+    - name:&b1 Flint
+    - 'lore:&2Reward: 0.1 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 1
+    ExtraPermission: ''
+
+  Flint_2:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Flint
+      - amount:2
+    Reward: 0.4
+    MenuItem:
+    - type:Flint
+    - amount:2
+    - name:&b2 Flint
+    - 'lore:&2Reward: 0.4 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 2
+    ExtraPermission: ''
+
+  Flint_4:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Flint
+      - amount:4
+    Reward: 0.8
+    MenuItem:
+    - type:Flint
+    - amount:4
+    - name:&b4 Flint
+    - 'lore:&2Reward: 0.8 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 3
+    ExtraPermission: ''
+
+  Flint_8:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Flint
+      - amount:8
+    Reward: 1.6
+    MenuItem:
+    - type:Flint
+    - amount:8
+    - name:&b8 Flint
+    - 'lore:&2Reward: 1.6 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 4
+    ExtraPermission: ''
+
+  Flint_12:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Flint
+      - amount:12
+    Reward: 2.4
+    MenuItem:
+    - type:Flint
+    - amount:12
+    - name:&b12 Flint
+    - 'lore:&2Reward: 2.4 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 5
+    ExtraPermission: ''
+
+  Flint_16:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Flint
+      - amount:16
+    Reward: 3.2
+    MenuItem:
+    - type:Flint
+    - amount:16
+    - name:&b16 Flint
+    - 'lore:&2Reward: 3.2 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 6
+    ExtraPermission: ''
+
+  Flint_20:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Flint
+      - amount:20
+    Reward: 4
+    MenuItem:
+    - type:Flint
+    - amount:20
+    - name:&b20 Flint
+    - 'lore:&2Reward: 4 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 7
+    ExtraPermission: ''
+
+  Flint_32:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Flint
+      - amount:32
+    Reward: 6.4
+    MenuItem:
+    - type:Flint
+    - amount:32
+    - name:&b32 Flint
+    - 'lore:&2Reward: 6.4 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 8
+    ExtraPermission: ''
+
+  Flint_64:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Flint
+      - amount:64
+    Reward: 12.8
+    MenuItem:
+    - type:Flint
+    - amount:64
+    - name:&b64 Flint
+    - 'lore:&2Reward: 12.8 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 9
+    ExtraPermission: ''
+
+#---
+
+  Glass_1:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Glass
+      - amount:1
+    Reward: 0.1
+    MenuItem:
+    - type:Glass
+    - amount:1
+    - name:&b1 Glass
+    - 'lore:&2Reward: 0.1 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 10
+    ExtraPermission: ''
+
+  Glass_2:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Glass
+      - amount:2
+    Reward: 0.4
+    MenuItem:
+    - type:Glass
+    - amount:2
+    - name:&b2 Glass
+    - 'lore:&2Reward: 0.4 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 11
+    ExtraPermission: ''
+
+  Glass_4:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Glass
+      - amount:4
+    Reward: 0.8
+    MenuItem:
+    - type:Glass
+    - amount:4
+    - name:&b4 Glass
+    - 'lore:&2Reward: 0.8 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 12
+    ExtraPermission: ''
+
+  Glass_8:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Glass
+      - amount:8
+    Reward: 1.6
+    MenuItem:
+    - type:Glass
+    - amount:8
+    - name:&b8 Glass
+    - 'lore:&2Reward: 1.6 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 13
+    ExtraPermission: ''
+
+  Glass_12:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Glass
+      - amount:12
+    Reward: 2.4
+    MenuItem:
+    - type:Glass
+    - amount:12
+    - name:&b12 Glass
+    - 'lore:&2Reward: 2.4 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 14
+    ExtraPermission: ''
+
+  Glass_16:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Glass
+      - amount:16
+    Reward: 3.2
+    MenuItem:
+    - type:Glass
+    - amount:16
+    - name:&b16 Glass
+    - 'lore:&2Reward: 3.2 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 15
+    ExtraPermission: ''
+
+  Glass_20:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Glass
+      - amount:20
+    Reward: 4
+    MenuItem:
+    - type:Glass
+    - amount:20
+    - name:&b20 Glass
+    - 'lore:&2Reward: 4 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 16
+    ExtraPermission: ''
+
+  Glass_32:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Glass
+      - amount:32
+    Reward: 6.4
+    MenuItem:
+    - type:Glass
+    - amount:32
+    - name:&b32 Glass
+    - 'lore:&2Reward: 6.4 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 17
+    ExtraPermission: ''
+
+  Glass_64:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Glass
+      - amount:64
+    Reward: 12.8
+    MenuItem:
+    - type:Glass
+    - amount:64
+    - name:&b64 Glass
+    - 'lore:&2Reward: 12.8 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 18
+    ExtraPermission: ''
+
+#---
+
+  Back:
+    RewardType: shop
+    PriceType: free
+    Reward: menu
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    Message: '&6Leaving the ItemShop...'
+    InventoryLocation: 54
+    ExtraPermission: ''

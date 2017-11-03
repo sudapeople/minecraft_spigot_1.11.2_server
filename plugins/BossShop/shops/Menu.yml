@@ -1,0 +1,162 @@
+ShopName: Menu
+DisplayName: '&lMenu'
+signs:
+  text: '[Menu]'
+  NeedPermissionToCreateSign: true
+shop:
+  MenuSellBlock:
+    RewardType: shop
+    PriceType: free
+    Reward: SellBlock
+    MenuItem:
+    - type:COBBLESTONE
+    - amount:1
+    - name:&b&lSellBlock &6[+]
+    - lore:&8Here you can sell Items
+    Message: ''
+    InventoryLocation: 1
+    ExtraPermission: ''
+  MenuSellDirt:
+    RewardType: shop
+    PriceType: free
+    Reward: SellDirt
+    MenuItem:
+    - type:GRASS
+    - amount:1
+    - name:&b&lSellDirt &6[+]
+    - lore:&8Here you can sell Items
+    Message: ''
+    InventoryLocation: 2
+    ExtraPermission: ''
+  MenuSellWood:
+    RewardType: shop
+    PriceType: free
+    Reward: SellWood
+    MenuItem:
+    - type:LOG
+    - amount:1
+    - name:&b&lSellWood &6[+]
+    - lore:&8Here you can sell Items
+    Message: ''
+    InventoryLocation: 3
+    ExtraPermission: ''
+  MenuSellWool:
+    RewardType: shop
+    PriceType: free
+    Reward: SellWool
+    MenuItem:
+    - type:Wool
+    - amount:1
+    - name:&b&lSellWool &6[+]
+    - lore:&8Here you can sell Items
+    Message: ''
+    InventoryLocation: 4
+    ExtraPermission: ''
+  MenuSellMetal:
+    RewardType: shop
+    PriceType: free
+    Reward: SellMetal
+    MenuItem:
+    - type:DIAMOND
+    - amount:1
+    - name:&b&lSellMetal &6[+]
+    - lore:&8Here you can sell Items
+    Message: ''
+    InventoryLocation: 5
+    ExtraPermission: ''
+  MenuSellEtc:
+    RewardType: shop
+    PriceType: free
+    Reward: SellEtc
+    MenuItem:
+    - type:Flint
+    - amount:1
+    - name:&b&lSellEtc &6[+]
+    - lore:&8Here you can sell Items
+    Message: ''
+    InventoryLocation: 6
+    ExtraPermission: ''
+  MenuBuyBlock:
+    RewardType: shop
+    PriceType: free
+    Reward: BuyBlock
+    MenuItem:
+    - type:stone:3
+    - amount:1
+    - name:&9&lBuyBlock &6[+]
+    - lore:&8Here you can buy Items
+    Message: ''
+    InventoryLocation: 19
+    ExtraPermission: ''
+  MenuBuyDirt:
+    RewardType: shop
+    PriceType: free
+    Reward: BuyDirt
+    MenuItem:
+    - type:dirt
+    - amount:1
+    - name:&9&lBuyDirt &6[+]
+    - lore:&8Here you can buy Items
+    Message: ''
+    InventoryLocation: 20
+    ExtraPermission: ''
+  MenuBuyWood:
+    RewardType: shop
+    PriceType: free
+    Reward: BuyWood
+    MenuItem:
+    - type:LOG:2
+    - amount:1
+    - name:&9&lBuyWood &6[+]
+    - lore:&8Here you can buy Items
+    Message: ''
+    InventoryLocation: 21
+    ExtraPermission: ''
+  MenuBuyWool:
+    RewardType: shop
+    PriceType: free
+    Reward: BuyWool
+    MenuItem:
+    - type:Wool:3
+    - amount:1
+    - name:&9&lBuyWool &6[+]
+    - lore:&8Here you can buy Items
+    Message: ''
+    InventoryLocation: 22
+    ExtraPermission: ''
+  MenuBuyMetal:
+    RewardType: shop
+    PriceType: free
+    Reward: BuyMetal
+    MenuItem:
+    - type:IRON_INGOT
+    - amount:1
+    - name:&9&lBuyMetal &6[+]
+    - lore:&8Here you can buy Items
+    Message: ''
+    InventoryLocation: 23
+    ExtraPermission: ''
+  MenuBuyFood:
+    RewardType: shop
+    PriceType: free
+    Reward: BuyFood
+    MenuItem:
+    - type:cooked_chicken
+    - amount:1
+    - name:&9&lBuyFood &6[+]
+    - lore:&8Here you can buy Items
+    Message: ''
+    InventoryLocation: 24
+    ExtraPermission: ''
+  MenuBuyEtc:
+    RewardType: shop
+    PriceType: free
+    Reward: BuyEtc
+    MenuItem:
+    - type:trapped_chest
+    - amount:1
+    - name:&9&lBuyEtc &6[+]
+    - lore:&8Here you can buy Items
+    Message: ''
+    InventoryLocation: 25
+    ExtraPermission: ''

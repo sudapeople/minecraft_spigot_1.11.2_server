@@ -1,0 +1,749 @@
+ShopName: SellMetal
+DisplayName: '&b&lSellMetal'
+signs:
+  text: '[SellMetal]'
+  NeedPermissionToCreateSign: true
+shop:
+
+  iron_ingot_1:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:iron_ingot
+      - amount:1
+    Reward: 4
+    MenuItem:
+    - type:iron_ingot
+    - amount:1
+    - name:&b1 iron_ingot
+    - 'lore:&2Reward: 4 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 1
+    ExtraPermission: ''
+
+  iron_ingot_2:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:iron_ingot
+      - amount:2
+    Reward: 8
+    MenuItem:
+    - type:iron_ingot
+    - amount:2
+    - name:&b2 iron_ingot
+    - 'lore:&2Reward: 8 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 2
+    ExtraPermission: ''
+
+  iron_ingot_4:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:iron_ingot
+      - amount:4
+    Reward: 16
+    MenuItem:
+    - type:iron_ingot
+    - amount:4
+    - name:&b4 iron_ingot
+    - 'lore:&2Reward: 16 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 3
+    ExtraPermission: ''
+
+  iron_ingot_8:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:iron_ingot
+      - amount:8
+    Reward: 32
+    MenuItem:
+    - type:iron_ingot
+    - amount:8
+    - name:&b8 iron_ingot
+    - 'lore:&2Reward: 32 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 4
+    ExtraPermission: ''
+
+  iron_ingot_12:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:iron_ingot
+      - amount:12
+    Reward: 48
+    MenuItem:
+    - type:iron_ingot
+    - amount:12
+    - name:&b12 iron_ingot
+    - 'lore:&2Reward: 48 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 5
+    ExtraPermission: ''
+
+  iron_ingot_16:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:iron_ingot
+      - amount:16
+    Reward: 64
+    MenuItem:
+    - type:iron_ingot
+    - amount:16
+    - name:&b16 iron_ingot
+    - 'lore:&2Reward: 64 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 6
+    ExtraPermission: ''
+
+  iron_ingot_20:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:iron_ingot
+      - amount:20
+    Reward: 80
+    MenuItem:
+    - type:iron_ingot
+    - amount:20
+    - name:&b20 iron_ingot
+    - 'lore:&2Reward: 80 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 7
+    ExtraPermission: ''
+
+  iron_ingot_32:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:iron_ingot
+      - amount:32
+    Reward: 128
+    MenuItem:
+    - type:iron_ingot
+    - amount:32
+    - name:&b32 iron_ingot
+    - 'lore:&2Reward: 128 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 8
+    ExtraPermission: ''
+
+  iron_ingot_64:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:iron_ingot
+      - amount:64
+    Reward: 256
+    MenuItem:
+    - type:iron_ingot
+    - amount:64
+    - name:&b64 iron_ingot
+    - 'lore:&2Reward: 256 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 9
+    ExtraPermission: ''
+
+#---
+
+  gold_ingot_1:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:gold_ingot
+      - amount:1
+    Reward: 5
+    MenuItem:
+    - type:gold_ingot
+    - amount:1
+    - name:&b1 gold_ingot
+    - 'lore:&2Reward: 5 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 10
+    ExtraPermission: ''
+
+  gold_ingot_2:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:gold_ingot
+      - amount:2
+    Reward: 10
+    MenuItem:
+    - type:gold_ingot
+    - amount:2
+    - name:&b2 gold_ingot
+    - 'lore:&2Reward: 10 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 11
+    ExtraPermission: ''
+
+  gold_ingot_4:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:gold_ingot
+      - amount:4
+    Reward: 20
+    MenuItem:
+    - type:gold_ingot
+    - amount:4
+    - name:&b4 gold_ingot
+    - 'lore:&2Reward: 20 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 12
+    ExtraPermission: ''
+
+  gold_ingot_8:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:gold_ingot
+      - amount:8
+    Reward: 40
+    MenuItem:
+    - type:gold_ingot
+    - amount:8
+    - name:&b8 gold_ingot
+    - 'lore:&2Reward: 40 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 13
+    ExtraPermission: ''
+
+  gold_ingot_12:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:gold_ingot
+      - amount:12
+    Reward: 60
+    MenuItem:
+    - type:gold_ingot
+    - amount:12
+    - name:&b12 gold_ingot
+    - 'lore:&2Reward: 60 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 14
+    ExtraPermission: ''
+
+  gold_ingot_16:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:gold_ingot
+      - amount:16
+    Reward: 80
+    MenuItem:
+    - type:gold_ingot
+    - amount:16
+    - name:&b16 gold_ingot
+    - 'lore:&2Reward: 80 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 15
+    ExtraPermission: ''
+
+  gold_ingot_20:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:gold_ingot
+      - amount:20
+    Reward: 100
+    MenuItem:
+    - type:gold_ingot
+    - amount:20
+    - name:&b20 gold_ingot
+    - 'lore:&2Reward: 100 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 16
+    ExtraPermission: ''
+
+  gold_ingot_32:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:gold_ingot
+      - amount:32
+    Reward: 160
+    MenuItem:
+    - type:gold_ingot
+    - amount:32
+    - name:&b32 gold_ingot
+    - 'lore:&2Reward: 160 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 17
+    ExtraPermission: ''
+
+  gold_ingot_64:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:gold_ingot
+      - amount:64
+    Reward: 320
+    MenuItem:
+    - type:gold_ingot
+    - amount:64
+    - name:&b64 gold_ingot
+    - 'lore:&2Reward: 320 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 18
+    ExtraPermission: ''
+
+#---
+
+  redstone_1:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:redstone
+      - amount:1
+    Reward: 3
+    MenuItem:
+    - type:redstone
+    - amount:1
+    - name:&b1 redstone
+    - 'lore:&2Reward: 3 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 19
+    ExtraPermission: ''
+
+  redstone_2:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:redstone
+      - amount:2
+    Reward: 6
+    MenuItem:
+    - type:redstone
+    - amount:2
+    - name:&b2 redstone
+    - 'lore:&2Reward: 6 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 20
+    ExtraPermission: ''
+
+  redstone_4:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:redstone
+      - amount:4
+    Reward: 12
+    MenuItem:
+    - type:redstone
+    - amount:4
+    - name:&b4 redstone
+    - 'lore:&2Reward: 12 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 21
+    ExtraPermission: ''
+
+  redstone_8:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:redstone
+      - amount:8
+    Reward: 24
+    MenuItem:
+    - type:redstone
+    - amount:8
+    - name:&b8 redstone
+    - 'lore:&2Reward: 24 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 22
+    ExtraPermission: ''
+
+  redstone_12:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:redstone
+      - amount:12
+    Reward: 36
+    MenuItem:
+    - type:redstone
+    - amount:12
+    - name:&b12 redstone
+    - 'lore:&2Reward: 36 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 23
+    ExtraPermission: ''
+
+  redstone_16:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:redstone
+      - amount:16
+    Reward: 48
+    MenuItem:
+    - type:redstone
+    - amount:16
+    - name:&b16 redstone
+    - 'lore:&2Reward: 48 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 24
+    ExtraPermission: ''
+
+  redstone_20:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:redstone
+      - amount:20
+    Reward: 60
+    MenuItem:
+    - type:redstone
+    - amount:20
+    - name:&b20 redstone
+    - 'lore:&2Reward: 60 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 25
+    ExtraPermission: ''
+
+  redstone_32:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:redstone
+      - amount:32
+    Reward: 96
+    MenuItem:
+    - type:redstone
+    - amount:32
+    - name:&b32 redstone
+    - 'lore:&2Reward: 96 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 26
+    ExtraPermission: ''
+
+  redstone_64:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:redstone
+      - amount:64
+    Reward: 192
+    MenuItem:
+    - type:redstone
+    - amount:64
+    - name:&b64 redstone
+    - 'lore:&2Reward: 192 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 27
+    ExtraPermission: ''
+
+#---
+
+  Coal_1:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Coal
+      - amount:1
+    Reward: 2
+    MenuItem:
+    - type:Coal
+    - amount:1
+    - name:&b1 Coal
+    - 'lore:&2Reward: 2 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 28
+    ExtraPermission: ''
+
+  Coal_2:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Coal
+      - amount:2
+    Reward: 4
+    MenuItem:
+    - type:Coal
+    - amount:2
+    - name:&b2 Coal
+    - 'lore:&2Reward: 4 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 29
+    ExtraPermission: ''
+
+  Coal_4:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Coal
+      - amount:4
+    Reward: 8
+    MenuItem:
+    - type:Coal
+    - amount:4
+    - name:&b4 Coal
+    - 'lore:&2Reward: 8 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 30
+    ExtraPermission: ''
+
+  Coal_8:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Coal
+      - amount:8
+    Reward: 16
+    MenuItem:
+    - type:Coal
+    - amount:8
+    - name:&b8 Coal
+    - 'lore:&2Reward: 16 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 31
+    ExtraPermission: ''
+
+  Coal_12:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Coal
+      - amount:12
+    Reward: 24
+    MenuItem:
+    - type:Coal
+    - amount:12
+    - name:&b12 Coal
+    - 'lore:&2Reward: 24 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 32
+    ExtraPermission: ''
+
+  Coal_16:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Coal
+      - amount:16
+    Reward: 32
+    MenuItem:
+    - type:Coal
+    - amount:16
+    - name:&b16 Coal
+    - 'lore:&2Reward: 32 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 33
+    ExtraPermission: ''
+
+  Coal_20:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Coal
+      - amount:20
+    Reward: 40
+    MenuItem:
+    - type:Coal
+    - amount:20
+    - name:&b20 Coal
+    - 'lore:&2Reward: 40 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 34
+    ExtraPermission: ''
+
+  Coal_32:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Coal
+      - amount:32
+    Reward: 64
+    MenuItem:
+    - type:Coal
+    - amount:32
+    - name:&b32 Coal
+    - 'lore:&2Reward: 64 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 35
+    ExtraPermission: ''
+
+  Coal_64:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:Coal
+      - amount:64
+    Reward: 128
+    MenuItem:
+    - type:Coal
+    - amount:64
+    - name:&b64 Coal
+    - 'lore:&2Reward: 128 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 36
+    ExtraPermission: ''
+
+#---
+
+  diamond_1:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:diamond
+      - amount:1
+    Reward: 10
+    MenuItem:
+    - type:diamond
+    - amount:1
+    - name:&b1 diamond
+    - 'lore:&2Reward: 10 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 37
+    ExtraPermission: ''
+
+  diamond_2:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:diamond
+      - amount:2
+    Reward: 20
+    MenuItem:
+    - type:diamond
+    - amount:2
+    - name:&b2 diamond
+    - 'lore:&2Reward: 20 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 38
+    ExtraPermission: ''
+
+  diamond_4:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:diamond
+      - amount:40
+    Reward: 4
+    MenuItem:
+    - type:diamond
+    - amount:4
+    - name:&b4 diamond
+    - 'lore:&2Reward: 40 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 39
+    ExtraPermission: ''
+
+  diamond_8:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:diamond
+      - amount:8
+    Reward: 80
+    MenuItem:
+    - type:diamond
+    - amount:8
+    - name:&b8 diamond
+    - 'lore:&2Reward: 80 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 40
+    ExtraPermission: ''
+
+  diamond_12:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:diamond
+      - amount:12
+    Reward: 120
+    MenuItem:
+    - type:diamond
+    - amount:12
+    - name:&b12 diamond
+    - 'lore:&2Reward: 120 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 41
+    ExtraPermission: ''
+
+  diamond_16:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:diamond
+      - amount:16
+    Reward: 160
+    MenuItem:
+    - type:diamond
+    - amount:16
+    - name:&b16 diamond
+    - 'lore:&2Reward: 160 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 42
+    ExtraPermission: ''
+
+  diamond_20:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:diamond
+      - amount:20
+    Reward: 200
+    MenuItem:
+    - type:diamond
+    - amount:20
+    - name:&b20 diamond
+    - 'lore:&2Reward: 200 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 43
+    ExtraPermission: ''
+
+  diamond_32:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:diamond
+      - amount:32
+    Reward: 320
+    MenuItem:
+    - type:diamond
+    - amount:32
+    - name:&b32 diamond
+    - 'lore:&2Reward: 320 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 44
+    ExtraPermission: ''
+
+  diamond_64:
+    RewardType: points
+    PriceType: item
+    Price:
+    - - type:diamond
+      - amount:64
+    Reward: 640
+    MenuItem:
+    - type:diamond
+    - amount:64
+    - name:&b64 diamond
+    - 'lore:&2Reward: 640 points'
+    Message: '&eYou sold &eYou sold %price% for %reward% %rewardtype%!'
+    InventoryLocation: 45
+    ExtraPermission: ''
+
+#---
+
+  Back:
+    RewardType: shop
+    PriceType: free
+    Reward: menu
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    Message: '&6Leaving the ItemShop...'
+    InventoryLocation: 54
+    ExtraPermission: ''
